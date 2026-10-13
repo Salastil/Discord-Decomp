@@ -1,0 +1,102 @@
+--- a/hermes_dec/decompilation/pass2_transform_code.py	2026-10-13 15:09:09.394064214 +0000
++++ b/hermes_dec/decompilation/pass2_transform_code.py	2026-10-13 15:03:26.373783960 +0000
+@@ -513,6 +513,99 @@
+                     assembly=[instruction],
+                 )
+             )
++        elif instruction.inst.name in (
++            'CallWithNewTarget',
++            'CallWithNewTargetLong',
++        ):
++            # super(...) in a derived-class constructor (Hermes >= v98):
++            #   CallWithNewTarget dst, callee, newTarget, argc
++            args = []
++            for register in reversed(
++                range(
++                    function_header.frameSize - 7 - op4,
++                    function_header.frameSize - 7,
++                )
++            ):
++                args += [RHRT(register), RT(', ')]
++            lines.append(
++                TS(
++                    [
++                        LHRT(op1),
++                        AT(),
++                        RT('__callWithNewTarget'),
++                        LPT(),
++                        RHRT(op2),
++                        RT(', '),
++                        RHRT(op3),
++                        RT(', ['),
++                        *args[:-1],
++                        RT(']'),
++                        RPT(),
++                    ],
++                    assembly=[instruction],
++                )
++            )
++        elif instruction.inst.name in (
++            'CreateBaseClass',
++            'CreateBaseClassLongIndex',
++        ):
++            # Hermes >= v98 native ES6 classes:
++            #   CreateBaseClass dstCtor, dstProto, env, funcId
++            lines.append(
++                TS(
++                    [
++                        LHRT(op1),
++                        AT(),
++                        RT('__createBaseClass'),
++                        LPT(),
++                        FTI(
++                            op4,
++                            state,
++                            op3 if op3 in _env_registers else None,
++                            is_closure=True,
++                        ),
++                        RPT(),
++                    ],
++                    assembly=[instruction],
++                )
++            )
++            lines.append(
++                TS(
++                    [LHRT(op2), AT(), RHRT(op1), DAT(), RT('prototype')],
++                    assembly=[],
++                )
++            )
++        elif instruction.inst.name in (
++            'CreateDerivedClass',
++            'CreateDerivedClassLongIndex',
++        ):
++            #   CreateDerivedClass dstCtor, dstProto, superClass, env, funcId
++            lines.append(
++                TS(
++                    [
++                        LHRT(op1),
++                        AT(),
++                        RT('__createDerivedClass'),
++                        LPT(),
++                        RHRT(op3),
++                        RT(', '),
++                        FTI(
++                            op5,
++                            state,
++                            op4 if op4 in _env_registers else None,
++                            is_closure=True,
++                        ),
++                        RPT(),
++                    ],
++                    assembly=[instruction],
++                )
++            )
++            lines.append(
++                TS(
++                    [LHRT(op2), AT(), RHRT(op1), DAT(), RT('prototype')],
++                    assembly=[],
++                )
++            )
+         elif instruction.inst.name == 'CreatePrivateName':
+             private_name = state.hbc_reader.strings[op2]
+             lines.append(
