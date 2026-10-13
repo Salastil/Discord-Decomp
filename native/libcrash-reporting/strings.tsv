@@ -1,0 +1,253 @@
+00101309	__cxa_finalize
+00101318	__cxa_atexit
+00101325	__register_atfork
+00101337	JNI_OnLoad
+00101342	_ZN8facebook3jni10initializeEP7_JavaVMONSt6__ndk18functionIFvvEEE
+00101384	__stack_chk_fail
+00101395	_ZdlPv
+0010139c	_Znwm
+001013a2	_ZN7discord20NativeCrashReporting15registerNativesEv
+001013d7	__cxa_allocate_exception
+001013f0	_ZNSt20bad_array_new_lengthC1Ev
+00101410	_ZTISt20bad_array_new_length
+0010142d	_ZNSt20bad_array_new_lengthD1Ev
+0010144d	__cxa_throw
+00101459	__cxa_begin_catch
+0010146b	_ZSt9terminatev
+0010147b	_ZGVZN8facebook3jni9JavaClassIN7discord20NativeCrashReportingENS0_7JObjectEvE15javaClassStaticEvE3cls
+001014e1	_ZZN8facebook3jni9JavaClassIN7discord20NativeCrashReportingENS0_7JObjectEvE15javaClassStaticEvE3cls
+00101545	_ZN8facebook3jni11Environment7currentEv
+0010156d	_ZN8facebook3jni19throwCppExceptionIfEb
+00101595	__cxa_guard_acquire
+001015a9	_ZN8facebook3jni12jtype_traitsIPNS0_6detail8JTypeForIN7discord20NativeCrashReportingENS0_7JObjectEvE11_javaobjectEE9kBaseNameE
+00101628	_ZN8facebook3jni15findClassStaticEPKc
+0010164e	__cxa_guard_release
+00101662	__cxa_guard_abort
+00101674	_ZN8facebook3jni6detail32FunctionWrapperWithJniEntryPointIPFvNS0_9alias_refIN7discord20NativeCrashReportingEEEhEXadL_ZNS5_10initNativeES6_hEES5_vJhEE4callEP7_JNIEnvP8_jobjecth
+00101724	_ZN7discord20NativeCrashReporting10initNativeEN8facebook3jni9alias_refIS0_EEh
+00101772	_ZN8facebook3jni6detail15FunctionWrapperIPFvNS0_9alias_refIN7discord20NativeCrashReportingEEEhES5_vJhEE4callEP7_JNIEnvP8_jobjecthS8_
+001017f7	_ZN8facebook8gloginit10initializeEPKc
+0010181d	_ZGVZN7discord20NativeCrashReporting10initNativeEN8facebook3jni9alias_refIS0_EEhE11sentry_sink
+0010187c	_ZZN7discord20NativeCrashReporting10initNativeEN8facebook3jni9alias_refIS0_EEhE11sentry_sink
+001018d9	_ZN6google10AddLogSinkEPNS_7LogSinkE
+001018fe	_ZN7discord20SentryBreadcrumbSinkC2Ev
+00101924	_ZN7discord20SentryBreadcrumbSinkD2Ev
+0010194a	_ZN8facebook3jni6detail12JniEnvCacherC1EP7_JNIEnv
+0010197c	_ZN8facebook3jni6detail12JniEnvCacherD1Ev
+001019a6	_ZN8facebook3jni43translatePendingCppExceptionToJavaExceptionEv
+001019e6	__cxa_end_catch
+001019f6	_ZTVN7discord20SentryBreadcrumbSinkE
+00101a1b	_ZN7discord14CrashReporting11getInstanceEv
+00101a46	_ZN7discord20SentryBreadcrumbSink15flushThreadFuncEv
+00101a7b	_ZNSt6__ndk16threadD1Ev
+00101a93	_ZNSt6__ndk15mutexD1Ev
+00101aaa	_ZN8facebook3jni14base_owned_refIN7discord14CrashReportingENS0_24GlobalReferenceAllocatorEED2Ev
+00101b0a	_ZN6google7LogSinkD2Ev
+00101b21	_ZNSt6__ndk16thread4joinEv
+00101b3c	_ZGVZN7discord14CrashReporting11getInstanceEvE8instance
+00101b74	_ZZN7discord14CrashReporting11getInstanceEvE8instance
+00101baa	_ZN8facebook3jni38throwPendingJniExceptionAsCppExceptionEv
+00101be5	_ZZN7discord14CrashReporting11getInstanceEvENKUlvE_clEv
+00101c1d	_ZN8facebook3jni14base_owned_refIPNS0_6detail8JTypeForIN7discord14CrashReportingENS0_7JObjectEvE11_javaobjectENS0_24GlobalReferenceAllocatorEED2Ev
+00101cb0	pthread_self
+00101cbd	pthread_setname_np
+00101cd0	_ZN8facebook3jni11ThreadScopeC1Ev
+00101cf2	_ZNSt6__ndk111this_thread9sleep_forERKNS_6chrono8durationIxNS_5ratioILl1ELl1000000000EEEEE
+00101d4d	_ZN7discord20SentryBreadcrumbSink13drainAndFlushEv
+00101d80	_ZN8facebook3jni11ThreadScopeD1Ev
+00101da2	_ZNSt6__ndk115__thread_structC1Ev
+00101dc4	pthread_create
+00101dd3	_ZNSt6__ndk120__throw_system_errorEiPKc
+00101dfb	_ZN7discord20SentryBreadcrumbSinkD0Ev
+00101e21	_ZN7discord20SentryBreadcrumbSink4sendEiPKcS2_iPK2tmS2_m
+00101e5a	memcpy
+00101e61	_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm
+00101eb0	__emutls_v._ZGVZN7discord20SentryBreadcrumbSink4sendEiPKcS2_iPK2tmS2_mE12isMainThread
+00101f06	__emutls_get_address
+00101f1b	strlen
+00101f22	__emutls_v._ZZN7discord20SentryBreadcrumbSink4sendEiPKcS2_iPK2tmS2_mE12isMainThread
+00101f76	_ZNSt6__ndk16chrono12system_clock3nowEv
+00101f9e	_ZNSt6__ndk15mutex4lockEv
+00101fb8	_ZNSt6__ndk16vectorIN7discord14BreadcrumbDataENS_9allocatorIS2_EEE21__push_back_slow_pathIRKS2_EEPS2_OT_
+00102021	_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE25__init_copy_ctor_externalEPKcm
+00102084	_ZNSt6__ndk15mutex6unlockEv
+001020a0	getpid
+001020a7	gettid
+001020ae	_ZN7discord14BreadcrumbDataD2Ev
+001020ce	_ZGVZN8facebook3jni9JavaClassIN7discord14CrashReportingENS0_7JObjectEvE15javaClassStaticEvE3cls
+0010212e	_ZZN8facebook3jni9JavaClassIN7discord14CrashReportingENS0_7JObjectEvE15javaClassStaticEvE3cls
+0010218c	_ZN8facebook3jni12jtype_traitsIPNS0_6detail8JTypeForIN7discord14CrashReportingENS0_7JObjectEvE11_javaobjectEE9kBaseNameE
+00102205	_ZNSt9bad_allocC1Ev
+00102219	_ZTISt9bad_alloc
+0010222a	_ZNSt9bad_allocD1Ev
+0010223e	_ZN8facebook3jni14base_owned_refIPNS0_6detail8JTypeForIN7discord14CrashReportingENS0_7JObjectEvE11_javaobjectENS0_23LocalReferenceAllocatorEED2Ev
+001022d0	_ZNK7discord14CrashReporting24addBreadcrumbBatchBinaryERKNSt6__ndk16vectorINS_14BreadcrumbDataENS1_9allocatorIS3_EEEE
+00102346	_ZNSt6__ndk16chrono12steady_clock3nowEv
+0010236e	_ZNSt6__ndk16vectorINS0_IN7discord14BreadcrumbDataENS_9allocatorIS2_EEEENS3_IS5_EEE21__push_back_slow_pathIS5_EEPS5_OT_
+001023e6	_ZGVZNK7discord14CrashReporting24addBreadcrumbBatchBinaryERKNSt6__ndk16vectorINS_14BreadcrumbDataENS1_9allocatorIS3_EEEEE6method
+00102467	_ZN8facebook3jni11JByteBuffer14allocateDirectEi
+00102497	_ZNK8facebook3jni7JBuffer16getDirectAddressEv
+001024c5	_ZZNK7discord14CrashReporting24addBreadcrumbBatchBinaryERKNSt6__ndk16vectorINS_14BreadcrumbDataENS1_9allocatorIS3_EEEEE6method
+00102544	_ZN7_JNIEnv14CallVoidMethodEP8_jobjectP10_jmethodIDz
+00102579	_ZN6google10LogMessageC1EPKcii
+00102598	_ZN6google10LogMessage6streamEv
+001025b8	_ZN6google10LogMessageD1Ev
+001025d3	_ZNK8facebook3jni7JObject8getClassEv
+001025f8	_ZNK8facebook3jni6JClass9getMethodIFvNS0_9alias_refINS0_11JByteBufferEEEEEENS0_7JMethodIT_EEPKc
+00102658	_ZN8facebook3jni14base_owned_refINS0_6JClassENS0_23LocalReferenceAllocatorEED2Ev
+001026a9	_ZN8facebook3jni14base_owned_refINS0_11JByteBufferENS0_23LocalReferenceAllocatorEED2Ev
+00102700	_ZN8facebook3jni14jmethod_traitsIFvPNS0_6detail8JTypeForINS0_11JByteBufferENS0_7JBufferEvE11_javaobjectEEE11kDescriptorE
+00102779	_ZTISt12length_error
+0010278e	_ZNSt12length_errorD1Ev
+001027a6	__cxa_free_exception
+001027bb	_ZNSt11logic_errorC2EPKc
+001027d4	_ZTVSt12length_error
+001027e9	memmove
+001027f1	_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryC1ERS3_
+00102832	_ZNKSt6__ndk18ios_base6getlocEv
+00102852	_ZNSt6__ndk15ctypeIcE2idE
+0010286c	_ZNKSt6__ndk16locale9use_facetERNS0_2idE
+00102895	_ZNSt6__ndk16localeD1Ev
+001028ad	_ZNSt6__ndk18ios_base5clearEj
+001028cb	_ZNSt6__ndk113basic_ostreamIcNS_11char_traitsIcEEE6sentryD1Ev
+00102909	_ZNSt6__ndk18ios_base33__set_badbit_and_consider_rethrowEv
+00102944	memset
+0010294b	_ZNSt6__ndk119__thread_local_dataEv
+0010296f	pthread_setspecific
+00102983	_ZNSt6__ndk115__thread_structD1Ev
+001029a5	vsnprintf
+001029af	_ZTSNSt6__ndk110__function6__baseIFvvEEE
+001029d8	_ZTINSt6__ndk110__function6__baseIFvvEEE
+00102a01	_ZTVN10__cxxabiv117__class_type_infoE
+00102a27	_ZTVN10__cxxabiv120__si_class_type_infoE
+00102a50	_ZN8facebook3jni14jmethod_traitsIFvhEE11kDescriptorE
+00102a85	_ZTIN7discord20SentryBreadcrumbSinkE
+00102aaa	_ZN6google7LogSink12WaitTillSentEv
+00102acd	_ZTSN7discord20SentryBreadcrumbSinkE
+00102af2	_ZTIN6google7LogSinkE
+00102b08	__gxx_personality_v0
+00102b1d	__sF
+00102b22	fprintf
+00102b2a	fflush
+00102b31	abort
+00102b37	pthread_rwlock_wrlock
+00102b4d	pthread_rwlock_unlock
+00102b63	malloc
+00102b6a	free
+00102b6f	dl_iterate_phdr
+00102b7f	pthread_rwlock_rdlock
+00102b95	syscall
+00102b9d	fwrite
+00102ba4	libdl.so
+00102bad	LIBC
+00102bb2	libc.so
+00102bba	libandroid.so
+00102bc8	liblog.so
+00102bd2	libfbjni.so
+00102bde	libreactnative.so
+00102bf0	libm.so
+00102bf8	libc++_shared.so
+00102c09	libcrash-reporting.so
+00104020	NSt6__ndk110__function6__funcIZ10JNI_OnLoadE3$_0NS_9allocatorIS2_EEFvvEEE
+0010406a	NSt6__ndk110__function6__baseIFvvEEE
+00104093	libunwind: %s - %s\n
+001040a7	DW_EH_PE_funcrel pointer encoding not supported
+001040df	getSavedFloatRegister
+001040f9	initNative
+00104104	Lcom/discord/crash_reporting/CrashReporting;
+00104131	libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big\n
+00104178	libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range\n\n
+001041de	CIE version is not 1 or 3
+001041f8	ReactNativeJNI
+00104207	thread constructor failed
+00104221	_Unwind_Resume() can't return
+0010423f	libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big\n
+00104281	Can't binary search on variable length encoded data.
+001042be	getULEB128
+001042cf	libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big\n
+00104319	FDE has zero length
+0010432d	truncated uleb128 expression
+0010434a	libunwind: unsupported .eh_frame_hdr version: %u at %lx\n
+00104393	unsupported arm64 register
+001043ae	unsupported restore location for register
+001043d8	getTableEntrySize
+001043ea	addBreadcrumbBatchBinary
+00104403	Failed to allocate ByteBuffer
+00104421	truncated sleb128 expression
+0010443e	DW_OP_piece not implemented
+00104464	evaluateExpression
+0010447a	unwind_phase2
+00104488	malformed uleb128 expression
+001044a5	unsupported restore location for float register
+001044dc	libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big\n
+0010451d	DW_EH_PE_aligned pointer encoding not supported
+0010454d	getSavedRegister
+00104562	getRegister
+00104576	FDE is really a CIE
+0010458a	libunwind: malformed DW_CFA_expression DWARF unwind, reg too big\n
+001045d0	libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big\n
+00104621	BreadcrumbFlush
+00104631	unknown pointer encoding
+0010464a	getSLEB128
+00104655	DW_OP_deref_size with bad size
+0010467b	during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+001046de	libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd\n
+00104746	setRegister
+00104756	libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big\n
+0010479e	DW_EH_PE_textrel pointer encoding not supported
+001047ce	DWARF opcode not implemented
+001047f6	libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big\n
+00104855	Failed to get direct bytes
+00104870	vector
+00104881	unknown register
+00104892	DW_EH_PE_datarel is invalid with a datarelBase of 0
+001048c6	Unknown DWARF encoding for search table.
+001048f3	basic_string
+00104900	libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big\n
+00104954	libunwind: malformed DW_CFA_register DWARF unwind, reg too big\n
+00104994	libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big\n
+001049e0	_Unwind_Resume
+001049ef	libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big\n
+00104a33	CIE ID is not zero
+00104a46	/ci/build/discord/discord/discord_android_rn/android/libraries/telemetry/crash_reporting/src/main/cpp/crash-reporting.cpp
+00104ac0	CIE start does not match
+00104ad9	INSTANCE
+00104aef	%s:%d
+00104af5	libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big\n
+00104b3a	getEncodedP
+00104b46	DW_OP_fbreg not implemented
+00104b6e	libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big\n
+00104bc8	com/discord/crash_reporting/NativeCrashReporting
+00104c08	N7discord20SentryBreadcrumbSinkE
+00104c30	com/discord/crash_reporting/CrashReporting
+00104c68	(Ljava/nio/ByteBuffer;)V
+00104c90	Z10JNI_OnLoadE3$_0
+001052e1	zR
+00106055	zPLR
+.comment::00000000	
+.comment::00000001	Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+.comment::000000b9	Linker: LLD 18.0.2
+.shstrtab::00000001	.fini_array
+.shstrtab::0000000d	.text
+.shstrtab::00000013	.got
+.shstrtab::00000018	.comment
+.shstrtab::00000021	.note.android.ident
+.shstrtab::00000035	.got.plt
+.shstrtab::0000003e	.rela.plt
+.shstrtab::00000048	.bss
+.shstrtab::0000004d	.dynstr
+.shstrtab::00000055	.eh_frame_hdr
+.shstrtab::00000063	.gnu.version_r
+.shstrtab::00000072	.data.rel.ro
+.shstrtab::0000007f	.rela.dyn
+.shstrtab::00000089	.gnu.version
+.shstrtab::00000096	.dynsym
+.shstrtab::0000009e	.gnu.hash
+.shstrtab::000000a8	.relro_padding
+.shstrtab::000000b7	.eh_frame
+.shstrtab::000000c1	.gcc_except_table
+.shstrtab::000000d3	.note.gnu.build-id
+.shstrtab::000000e6	.dynamic
+.shstrtab::000000ef	.shstrtab
+.shstrtab::000000f9	.rodata
+.shstrtab::00000101	.data

@@ -1,0 +1,4 @@
+00102358	_FINI_1
+00102370	_FINI_0
+001023b8	getDynamic
+001023b8	_ZNK8facebook5react15SizingUtilState10getDynamicEv

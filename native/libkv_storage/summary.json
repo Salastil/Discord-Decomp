@@ -1,0 +1,1 @@
+{"program": "libkv_storage.so", "language": "AARCH64:LE:64:v8A", "functions": 4541, "decompiled_ok": 4540, "failed": 1, "strings": 3449, "chunk_files": 12, "seconds": 99, "failed_functions_disassembled": 1}

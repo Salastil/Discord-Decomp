@@ -1,0 +1,1 @@
+{"program": "libcrash-reporting.so", "language": "AARCH64:LE:64:v8A", "functions": 284, "decompiled_ok": 284, "failed": 0, "strings": 253, "chunk_files": 1, "seconds": 2, "failed_functions_disassembled": 0}
