@@ -4,8 +4,8 @@ Decompilation of **Discord for Android 348.10 (stable), `com.discord`, versionCo
 for study and cross-checking against Nobilis.
 
 > **Read [docs/KNOWN-GAPS.md](docs/KNOWN-GAPS.md) before relying on anything here.**
-> This is reconstructed code, not Discord's source. Native libraries are not
-> decompiled, names are minified, and the Hermes (JavaScript) output is pseudo-JS.
+> This is reconstructed code, not Discord's source. Names are minified, the Hermes (JavaScript)
+> output is pseudo-JS, and native code is Ghidra pseudo-C from stripped binaries.
 
 ## What the app is made of
 
@@ -16,10 +16,12 @@ Hermes**, plus a Java/Kotlin shell and native libraries:
 |---|---|---|---|
 | Application logic (UI, stores, API/gateway handling) | `assets/index.android.bundle`, Hermes bytecode **v98** | 67 MB, 153,899 functions, 17,808 Metro modules | `hermes/` (pseudo-JS) |
 | Java/Kotlin shell, RN bridge, native-module wrappers, 3rd-party SDKs | `classes.dex` ..`classes4.dex` | 14,046 classes | `android/sources/` (jadx) |
-| Native code (`libdiscord`, `libdiscore` JSI module, Hermes VM, ...) | `lib/<abi>/*.so` | tens of MB per ABI | **not decompiled** |
+| Native code (`libdiscord` WebRTC engine, `libdiscore` Rust core, ...) | `lib/<abi>/*.so` | tens of MB per ABI | `native/` (Ghidra, arm64 only; see [docs/NATIVE-LIBS.md](docs/NATIVE-LIBS.md)) |
 
 So for protocol and behaviour questions (REST routes, gateway events, store
-logic, feature flags), **start in `hermes/`**, not `android/`.
+logic, feature flags), **start in `hermes/`**, not `android/`. Voice/video (WebRTC, DAVE E2EE) is
+in `native/libdiscord/`; the Rust core (`libdiscore`: SQLite, HTTP/TLS, stores) is in
+`native/liblibdiscore-rn-jsi-module/`.
 
 ## Layout
 
@@ -36,7 +38,10 @@ hermes/
   strings.tsv                   all 335,441 string-table entries (index<TAB>string)
   coverage/                     summary.json (153,899/153,899 functions covered) + per-range stats
 docs/KNOWN-GAPS.md    fidelity limits, jadx failures, provenance + hashes
-tools/                the scripts and the hermes-dec patch used; reproduce.sh rebuilds everything
+docs/NATIVE-LIBS.md   every native lib: decompiled vs. open-source-with-exact-version, coverage per lib
+docs/native/rust-crates.md  exact crate versions linked into the Rust libs
+native/<lib>/         Ghidra output (C chunks, functions/strings/imports/exports, failed_functions.asm)
+tools/                scripts + hermes-dec patch; reproduce.sh (Java + Hermes), reproduce_native.sh (Ghidra)
 ```
 
 ## Finding things

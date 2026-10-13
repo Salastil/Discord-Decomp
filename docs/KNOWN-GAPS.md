@@ -3,23 +3,19 @@
 A decompilation is a reconstruction, not the original source. Read this before
 using anything here as ground truth.
 
-## 1. Native code is NOT decompiled
+## 1. Native code (arm64-v8a only)
 
-Everything under `lib/<abi>/` in the split APKs is machine code. Nothing here
-covers it. The Discord-authored and logic-heavy ones are:
+Native libraries are handled in [NATIVE-LIBS.md](NATIVE-LIBS.md): Discord-authored and closed-source libs, and open-source libs whose
+exact version could not be established, are decompiled with Ghidra 11.3.2 into `native/`; open-source libs with an established
+version are only cited (version + upstream link). Key limits:
 
-| Library (arm64-v8a) | Size | Notes |
-|---|---|---|
-| `libdiscord.so` | 12.4 MB | Discord native code |
-| `liblibdiscore-rn-jsi-module.so` | 10.0 MB | "libdiscore" JSI module exposed to the JS layer (the Java package `com/discord/libdiscore` is its bridge). The JS bundle references it by name, e.g. the string `2026-01-libdiscore-batch-store-refactor` |
-| `libappmodules.so` | 8.6 MB | React Native new-architecture module registry (typical role of this filename; not inspected) |
-| `libkrisp-audio-sdk.so` | 6.6 MB | Krisp audio SDK (third party, by name) |
-| `libkv_storage.so`, `libdsti.so` | 2.1 / 1.1 MB | not inspected |
-
-Third-party natives (React Native, Hermes VM, Reanimated, Rive, Sentry, MMKV,
-zstd, uCrop, ...) are standard libraries. If behaviour you care about lives in
-`libdiscore`, you need Ghidra/IDA on the `.so`; the Java and JS layers only show
-the call boundary into it.
+* **arm64-v8a only.** armeabi-v7a, x86 and x86_64 builds were not processed.
+* **Pseudo-C from stripped binaries**: `FUN_<addr>` names (only ~1.7% of `libdiscord.so` functions have names), inferred types.
+* **`libdiscord.so` has 10 functions Ghidra cannot model** (`usdot`), see `native/libdiscord/UNMODELLED_INSTRUCTIONS.md`.
+* 51 functions across all libs timed out or crashed the decompiler; each has a capstone disassembly in `failed_functions.asm`.
+* The Rust libraries (`libdiscore`, `libappmodules`) decompile poorly; use their crate list (`docs/native/rust-crates.md`) and strings.
+* Versions of WebRTC/Opus/BoringSSL inside `libdiscord.so` are not recoverable.
+* `libkrisp-audio-sdk.so` is proprietary third-party code (Krisp); check its licence before redistributing.
 
 ## 2. Java / Kotlin (jadx 1.5.1)
 
