@@ -1,0 +1,1 @@
+{"program": "libdiscord.so", "language": "AARCH64:LE:64:v8A", "functions": 31461, "decompiled_ok": 31437, "failed": 24, "strings": 14114, "chunk_files": 79, "seconds": 665, "failed_functions_disassembled": 24}
