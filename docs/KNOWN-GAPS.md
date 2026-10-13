@@ -98,14 +98,23 @@ these properties:
   decompiled independently, the tool prints warnings like
   `LoadFromEnvironment references unknown register N`, and some captured-variable
   reads appear as raw `_env_rN_slotM` instead of a named variable.
-* **Output explosion on one module.** Top-level #5062 (`fn#5023`, a
+* **Output explosion in one module.** Top-level #5062 (`fn#5023`, a
   validation-schema helper library: `optional/and/or/select/between/...`)
-  re-inlines shared closures into each other exponentially. A single
-  1.8 KB function expanded to >200 MB before we capped it. For that module the
-  file `hermes/js/modules_005000-005249.js` contains the disassembly of the
-  function plus each child closure decompiled separately
-  (`/* ---- child closure fn#N of fn#M ---- */`).
-  See `hermes/coverage/` for the exact function coverage.
+  re-inlines shared closures into each other exponentially: a single 1.8 KB
+  function expanded to >200 MB before we capped it. Handling:
+  `hermes/js/modules_005000-005249.js` holds #5062 as plain *disassembly* of
+  `fn#5023` (marked `[oversized]`), and the 95 functions nested under it are in
+  `hermes/js/missing_functions.js`, decompiled one by one. 79 of those are normal
+  decompiled pseudo-JS; 16 (the `between/lt/gt/lte/gte/int/finite/...` schema
+  builders) are again too large to inline and appear as disassembly plus their
+  child closures decompiled separately. So for this one library, expect a mix of
+  pseudo-JS and raw bytecode listing.
+* **Coverage is exact, not estimated.** The driver records every function ID it
+  decompiles: 153,899 of 153,899 functions are present. 153,803 come from
+  `modules_*.js`, 95 from `missing_functions.js`, and `fn#0` (the global
+  function) is `_global.js`, where module factories show as `<fn#N>`
+  placeholders. No "Unsupported instruction" markers remain in the output. See
+  `hermes/coverage/summary.json`.
 * `assets/index.android.bundle.patch` is an `MBSDIFF43` binary-diff file with
   26 non-zero bytes (a near-empty OTA patch). It contains no separate code.
 

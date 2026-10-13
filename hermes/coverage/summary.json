@@ -1,0 +1,26 @@
+{
+  "bytecode_version": 98,
+  "functions_total": 153899,
+  "top_level_modules": 17808,
+  "main_run": {
+    "modules_ok": 17807,
+    "modules_oversized": 1,
+    "modules_crashed": 0,
+    "modules_timeout": 0,
+    "functions_visited": 153803
+  },
+  "supplement": {
+    "file": "hermes/js/missing_functions.js",
+    "functions": 95,
+    "ok": 79,
+    "oversized_disassembly_plus_children": 16,
+    "reason": "children of top-level #5062 (fn#5023); exponential closure re-inlining"
+  },
+  "fn0_global": "hermes/js/_global.js (module factories shown as <fn#N> placeholders)",
+  "functions_not_covered": 0,
+  "unsupported_instructions_in_output": 0,
+  "instructions_patched": {
+    "CreateBaseClass/CreateDerivedClass (+LongIndex)": 1521,
+    "CallWithNewTarget": 833
+  }
+}

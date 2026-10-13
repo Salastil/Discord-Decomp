@@ -259,8 +259,28 @@ def cmd_extra(bundle, outdir):
     print('calldirect functions:', len(ids))
 
 
+def cmd_fids(bundle, outpath, fids):
+    """Decompile an explicit list of function IDs, each with its own budget."""
+    state, reader = load(bundle)
+    stats = {}
+    with open(outpath, 'w', encoding='utf-8') as out:
+        for fid in fids:
+            t1 = time.time()
+            text, status = decompile_to_str(state, reader, fid, is_closure=True)
+            stats[status] = stats.get(status, 0) + 1
+            out.write('// ===== fn#%d [%s] =====\n' % (fid, status))
+            out.write(text + '\n\n')
+            out.flush()
+            print('fn#%d %s %.1fs %d bytes' % (fid, status, time.time() - t1, len(text)), flush=True)
+    with open(outpath + '.json', 'w') as f:
+        json.dump({'stats': stats, 'visited': sorted(VISITED)}, f)
+
+
 if __name__ == '__main__':
     cmd = sys.argv[1]
+    if cmd == 'fids':
+        cmd_fids(sys.argv[2], sys.argv[3], [int(x) for x in sys.argv[4:]])
+        sys.exit(0)
     if cmd == 'index':
         cmd_index(sys.argv[2], sys.argv[3])
     elif cmd == 'worker':

@@ -43,8 +43,12 @@ seq 0 1000 17807 | xargs -P4 -I{} bash -c '
   e=$(( {} + 1000 )); [ $e -gt 17808 ] && e=17808
   python3 "'"$HERE"'/hermes_decompile.py" worker "'"$BUNDLE"'" "'"$OUT"'" {} $e 250 > logs/w{}.log 2>&1'
 
+echo "== 4b. the 95 functions under oversized module #5062 are decompiled one by one"
+HERMES_TIMEOUT=30 HERMES_BUDGET=45 python3 "$HERE/hermes_decompile.py" fids "$BUNDLE" "$OUT/missing_functions.js" \
+  $(cat "$HERE/../hermes/coverage/missing_fids.txt")
+
 echo "== 5. (optional) full Hermes disassembly, ~620 MB, not committed to the repo"
 echo "   python3 tools/hermesdec/bin/hbc-disassembler $BUNDLE out/hermes.hasm"
 
 echo "done: $WORK/out/jadx-base (Java + resources), $WORK/$OUT (Hermes JS)"
-echo "Module #5062 (fn#5023) needs a bigger budget: see docs/KNOWN-GAPS.md"
+echo "Module #5062 (fn#5023) is a known oversized case: see docs/KNOWN-GAPS.md"
