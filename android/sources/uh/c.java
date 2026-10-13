@@ -1,0 +1,71 @@
+package uh;
+
+import android.content.Context;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
+import android.os.Build;
+import android.util.Base64;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+/* loaded from: classes3.dex */
+public abstract class c {
+    public static final a5.m a = new a5.m("PhoneskyVerificationUtils", 3);
+
+    public static boolean a(Context context) {
+        Signature[] signatureArr;
+        String str;
+        a5.m mVar = a;
+        try {
+        } catch (PackageManager.NameNotFoundException unused) {
+            mVar.g("Play Store package is not found.", new Object[0]);
+        }
+        if (!context.getPackageManager().getApplicationInfo("com.android.vending", 0).enabled) {
+            mVar.g("Play Store package is disabled.", new Object[0]);
+            return false;
+        }
+        try {
+            signatureArr = context.getPackageManager().getPackageInfo("com.android.vending", 64).signatures;
+        } catch (PackageManager.NameNotFoundException unused2) {
+            mVar.g("Play Store package is not found.", new Object[0]);
+        }
+        if (signatureArr == null || (signatureArr.length) == 0) {
+            mVar.g("Play Store package is not signed -- possibly self-built package. Could not verify.", new Object[0]);
+            return false;
+        }
+        ArrayList arrayList = new ArrayList();
+        for (Signature signature : signatureArr) {
+            byte[] byteArray = signature.toByteArray();
+            try {
+                MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
+                messageDigest.update(byteArray);
+                str = Base64.encodeToString(messageDigest.digest(), 11);
+            } catch (NoSuchAlgorithmException unused3) {
+                str = "";
+            }
+            arrayList.add(str);
+            if ("8P1sW0EPJcslw7UzRsiXL64w-O50Ed-RBICtay1g24M".equals(str)) {
+                return true;
+            }
+            String str2 = Build.TAGS;
+            if ((str2.contains("dev-keys") || str2.contains("test-keys")) && "GXWy8XF3vIml3_MfnmSmyuKBpT3B0dWbHRR_4cgq-gA".equals(str)) {
+                return true;
+            }
+        }
+        StringBuilder sb2 = new StringBuilder();
+        Iterator it = arrayList.iterator();
+        if (it.hasNext()) {
+            while (true) {
+                sb2.append((CharSequence) it.next());
+                if (!it.hasNext()) {
+                    break;
+                }
+                sb2.append((CharSequence) ", ");
+            }
+        }
+        mVar.g(s4.h.f("Play Store package certs are not valid. Found these sha256 certs: [", sb2.toString(), "]."), new Object[0]);
+        return false;
+    }
+}

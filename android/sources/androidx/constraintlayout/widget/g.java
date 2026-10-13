@@ -1,0 +1,300 @@
+package androidx.constraintlayout.widget;
+
+import android.view.ViewGroup;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import java.util.Arrays;
+import java.util.HashMap;
+
+/* loaded from: classes.dex */
+public final class g {
+    public int a;
+
+    /* renamed from: b, reason: collision with root package name */
+    public final j f1350b;
+
+    /* renamed from: c, reason: collision with root package name */
+    public final i f1351c;
+
+    /* renamed from: d, reason: collision with root package name */
+    public final h f1352d;
+
+    /* renamed from: e, reason: collision with root package name */
+    public final k f1353e;
+
+    /* renamed from: f, reason: collision with root package name */
+    public HashMap f1354f;
+
+    public g() {
+        j jVar = new j();
+        jVar.a = 0;
+        jVar.f1399b = 0;
+        jVar.f1400c = 1.0f;
+        jVar.f1401d = Float.NaN;
+        this.f1350b = jVar;
+        i iVar = new i();
+        iVar.a = -1;
+        iVar.f1391b = 0;
+        iVar.f1392c = -1;
+        iVar.f1393d = Float.NaN;
+        iVar.f1394e = Float.NaN;
+        iVar.f1395f = Float.NaN;
+        iVar.f1396g = -1;
+        iVar.f1397h = null;
+        iVar.f1398i = -1;
+        this.f1351c = iVar;
+        h hVar = new h();
+        hVar.a = false;
+        hVar.f1360d = -1;
+        hVar.f1362e = -1;
+        hVar.f1364f = -1.0f;
+        hVar.f1366g = -1;
+        hVar.f1368h = -1;
+        hVar.f1369i = -1;
+        hVar.j = -1;
+        hVar.k = -1;
+        hVar.f1373l = -1;
+        hVar.f1375m = -1;
+        hVar.f1377n = -1;
+        hVar.f1379o = -1;
+        hVar.f1380p = -1;
+        hVar.f1381q = -1;
+        hVar.f1382r = -1;
+        hVar.f1383s = -1;
+        hVar.f1384t = -1;
+        hVar.f1385u = -1;
+        hVar.f1386v = 0.5f;
+        hVar.f1387w = 0.5f;
+        hVar.f1388x = null;
+        hVar.f1389y = -1;
+        hVar.f1390z = 0;
+        hVar.A = 0.0f;
+        hVar.B = -1;
+        hVar.C = -1;
+        hVar.D = -1;
+        hVar.E = 0;
+        hVar.F = 0;
+        hVar.G = 0;
+        hVar.H = 0;
+        hVar.I = 0;
+        hVar.J = 0;
+        hVar.K = 0;
+        hVar.L = Integer.MIN_VALUE;
+        hVar.M = Integer.MIN_VALUE;
+        hVar.N = Integer.MIN_VALUE;
+        hVar.O = Integer.MIN_VALUE;
+        hVar.P = Integer.MIN_VALUE;
+        hVar.Q = Integer.MIN_VALUE;
+        hVar.R = Integer.MIN_VALUE;
+        hVar.S = -1.0f;
+        hVar.T = -1.0f;
+        hVar.U = 0;
+        hVar.V = 0;
+        hVar.W = 0;
+        hVar.X = 0;
+        hVar.Y = -1;
+        hVar.Z = -1;
+        hVar.a0 = -1;
+        hVar.f1357b0 = -1;
+        hVar.f1359c0 = 1.0f;
+        hVar.f1361d0 = 1.0f;
+        hVar.f1363e0 = -1;
+        hVar.f1365f0 = 0;
+        hVar.f1367g0 = -1;
+        hVar.f1372k0 = false;
+        hVar.f1374l0 = false;
+        hVar.f1376m0 = true;
+        hVar.f1378n0 = 0;
+        this.f1352d = hVar;
+        k kVar = new k();
+        kVar.a = 0.0f;
+        kVar.f1403b = 0.0f;
+        kVar.f1404c = 0.0f;
+        kVar.f1405d = 1.0f;
+        kVar.f1406e = 1.0f;
+        kVar.f1407f = Float.NaN;
+        kVar.f1408g = Float.NaN;
+        kVar.f1409h = -1;
+        kVar.f1410i = 0.0f;
+        kVar.j = 0.0f;
+        kVar.k = 0.0f;
+        kVar.f1411l = false;
+        kVar.f1412m = 0.0f;
+        this.f1353e = kVar;
+        this.f1354f = new HashMap();
+    }
+
+    public final void a(ConstraintLayout.LayoutParams layoutParams) {
+        h hVar = this.f1352d;
+        layoutParams.f1272d = hVar.f1366g;
+        layoutParams.f1274e = hVar.f1368h;
+        layoutParams.f1276f = hVar.f1369i;
+        layoutParams.f1278g = hVar.j;
+        layoutParams.f1280h = hVar.k;
+        layoutParams.f1281i = hVar.f1373l;
+        layoutParams.j = hVar.f1375m;
+        layoutParams.k = hVar.f1377n;
+        layoutParams.f1285l = hVar.f1379o;
+        layoutParams.f1287m = hVar.f1380p;
+        layoutParams.f1289n = hVar.f1381q;
+        layoutParams.f1295r = hVar.f1382r;
+        layoutParams.f1296s = hVar.f1383s;
+        layoutParams.f1297t = hVar.f1384t;
+        layoutParams.f1298u = hVar.f1385u;
+        ((ViewGroup.MarginLayoutParams) layoutParams).leftMargin = hVar.E;
+        ((ViewGroup.MarginLayoutParams) layoutParams).rightMargin = hVar.F;
+        ((ViewGroup.MarginLayoutParams) layoutParams).topMargin = hVar.G;
+        ((ViewGroup.MarginLayoutParams) layoutParams).bottomMargin = hVar.H;
+        layoutParams.f1303z = hVar.Q;
+        layoutParams.A = hVar.P;
+        layoutParams.f1300w = hVar.M;
+        layoutParams.f1302y = hVar.O;
+        layoutParams.D = hVar.f1386v;
+        layoutParams.E = hVar.f1387w;
+        layoutParams.f1291o = hVar.f1389y;
+        layoutParams.f1293p = hVar.f1390z;
+        layoutParams.f1294q = hVar.A;
+        layoutParams.F = hVar.f1388x;
+        layoutParams.S = hVar.B;
+        layoutParams.T = hVar.C;
+        layoutParams.H = hVar.S;
+        layoutParams.G = hVar.T;
+        layoutParams.J = hVar.V;
+        layoutParams.I = hVar.U;
+        layoutParams.V = hVar.f1372k0;
+        layoutParams.W = hVar.f1374l0;
+        layoutParams.K = hVar.W;
+        layoutParams.L = hVar.X;
+        layoutParams.O = hVar.Y;
+        layoutParams.P = hVar.Z;
+        layoutParams.M = hVar.a0;
+        layoutParams.N = hVar.f1357b0;
+        layoutParams.Q = hVar.f1359c0;
+        layoutParams.R = hVar.f1361d0;
+        layoutParams.U = hVar.D;
+        layoutParams.f1270c = hVar.f1364f;
+        layoutParams.a = hVar.f1360d;
+        layoutParams.f1268b = hVar.f1362e;
+        ((ViewGroup.MarginLayoutParams) layoutParams).width = hVar.f1356b;
+        ((ViewGroup.MarginLayoutParams) layoutParams).height = hVar.f1358c;
+        String str = hVar.f1371j0;
+        if (str != null) {
+            layoutParams.X = str;
+        }
+        layoutParams.Y = hVar.f1378n0;
+        layoutParams.setMarginStart(hVar.J);
+        layoutParams.setMarginEnd(hVar.I);
+        layoutParams.a();
+    }
+
+    public final Object clone() {
+        g gVar = new g();
+        h hVar = gVar.f1352d;
+        hVar.getClass();
+        h hVar2 = this.f1352d;
+        hVar.a = hVar2.a;
+        hVar.f1356b = hVar2.f1356b;
+        hVar.f1358c = hVar2.f1358c;
+        hVar.f1360d = hVar2.f1360d;
+        hVar.f1362e = hVar2.f1362e;
+        hVar.f1364f = hVar2.f1364f;
+        hVar.f1366g = hVar2.f1366g;
+        hVar.f1368h = hVar2.f1368h;
+        hVar.f1369i = hVar2.f1369i;
+        hVar.j = hVar2.j;
+        hVar.k = hVar2.k;
+        hVar.f1373l = hVar2.f1373l;
+        hVar.f1375m = hVar2.f1375m;
+        hVar.f1377n = hVar2.f1377n;
+        hVar.f1379o = hVar2.f1379o;
+        hVar.f1380p = hVar2.f1380p;
+        hVar.f1381q = hVar2.f1381q;
+        hVar.f1382r = hVar2.f1382r;
+        hVar.f1383s = hVar2.f1383s;
+        hVar.f1384t = hVar2.f1384t;
+        hVar.f1385u = hVar2.f1385u;
+        hVar.f1386v = hVar2.f1386v;
+        hVar.f1387w = hVar2.f1387w;
+        hVar.f1388x = hVar2.f1388x;
+        hVar.f1389y = hVar2.f1389y;
+        hVar.f1390z = hVar2.f1390z;
+        hVar.A = hVar2.A;
+        hVar.B = hVar2.B;
+        hVar.C = hVar2.C;
+        hVar.D = hVar2.D;
+        hVar.E = hVar2.E;
+        hVar.F = hVar2.F;
+        hVar.G = hVar2.G;
+        hVar.H = hVar2.H;
+        hVar.I = hVar2.I;
+        hVar.J = hVar2.J;
+        hVar.K = hVar2.K;
+        hVar.L = hVar2.L;
+        hVar.M = hVar2.M;
+        hVar.N = hVar2.N;
+        hVar.O = hVar2.O;
+        hVar.P = hVar2.P;
+        hVar.Q = hVar2.Q;
+        hVar.R = hVar2.R;
+        hVar.S = hVar2.S;
+        hVar.T = hVar2.T;
+        hVar.U = hVar2.U;
+        hVar.V = hVar2.V;
+        hVar.W = hVar2.W;
+        hVar.X = hVar2.X;
+        hVar.Y = hVar2.Y;
+        hVar.Z = hVar2.Z;
+        hVar.a0 = hVar2.a0;
+        hVar.f1357b0 = hVar2.f1357b0;
+        hVar.f1359c0 = hVar2.f1359c0;
+        hVar.f1361d0 = hVar2.f1361d0;
+        hVar.f1363e0 = hVar2.f1363e0;
+        hVar.f1365f0 = hVar2.f1365f0;
+        hVar.f1367g0 = hVar2.f1367g0;
+        hVar.f1371j0 = hVar2.f1371j0;
+        int[] iArr = hVar2.h0;
+        if (iArr != null) {
+            hVar.h0 = Arrays.copyOf(iArr, iArr.length);
+        } else {
+            hVar.h0 = null;
+        }
+        hVar.f1370i0 = hVar2.f1370i0;
+        hVar.f1372k0 = hVar2.f1372k0;
+        hVar.f1374l0 = hVar2.f1374l0;
+        hVar.f1376m0 = hVar2.f1376m0;
+        hVar.f1378n0 = hVar2.f1378n0;
+        i iVar = gVar.f1351c;
+        iVar.getClass();
+        i iVar2 = this.f1351c;
+        iVar2.getClass();
+        iVar.a = iVar2.a;
+        iVar.f1392c = iVar2.f1392c;
+        iVar.f1394e = iVar2.f1394e;
+        iVar.f1393d = iVar2.f1393d;
+        j jVar = this.f1350b;
+        int i5 = jVar.a;
+        j jVar2 = gVar.f1350b;
+        jVar2.a = i5;
+        jVar2.f1400c = jVar.f1400c;
+        jVar2.f1401d = jVar.f1401d;
+        jVar2.f1399b = jVar.f1399b;
+        k kVar = gVar.f1353e;
+        kVar.getClass();
+        k kVar2 = this.f1353e;
+        kVar2.getClass();
+        kVar.a = kVar2.a;
+        kVar.f1403b = kVar2.f1403b;
+        kVar.f1404c = kVar2.f1404c;
+        kVar.f1405d = kVar2.f1405d;
+        kVar.f1406e = kVar2.f1406e;
+        kVar.f1407f = kVar2.f1407f;
+        kVar.f1408g = kVar2.f1408g;
+        kVar.f1409h = kVar2.f1409h;
+        kVar.f1410i = kVar2.f1410i;
+        kVar.j = kVar2.j;
+        kVar.k = kVar2.k;
+        kVar.f1411l = kVar2.f1411l;
+        kVar.f1412m = kVar2.f1412m;
+        gVar.a = this.a;
+        return gVar;
+    }
+}

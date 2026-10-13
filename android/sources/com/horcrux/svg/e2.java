@@ -1,0 +1,38 @@
+package com.horcrux.svg;
+
+import java.util.HashMap;
+
+/* loaded from: classes3.dex */
+public enum e2 {
+    None("none"),
+    /* JADX INFO: Fake field, exist only in values array */
+    Underline("underline"),
+    /* JADX INFO: Fake field, exist only in values array */
+    Overline("overline"),
+    /* JADX INFO: Fake field, exist only in values array */
+    LineThrough("line-through"),
+    /* JADX INFO: Fake field, exist only in values array */
+    Blink("blink");
+
+
+    /* renamed from: i, reason: collision with root package name */
+    public static final HashMap f6342i = new HashMap();
+
+    /* renamed from: d, reason: collision with root package name */
+    public final String f6344d;
+
+    static {
+        for (e2 e2Var : values()) {
+            f6342i.put(e2Var.f6344d, e2Var);
+        }
+    }
+
+    e2(String str) {
+        this.f6344d = str;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return this.f6344d;
+    }
+}

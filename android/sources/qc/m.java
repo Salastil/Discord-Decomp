@@ -1,0 +1,6 @@
+package qc;
+
+/* loaded from: classes3.dex */
+public final class m {
+    public long a;
+}

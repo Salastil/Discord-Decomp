@@ -1,0 +1,6 @@
+package qc;
+
+/* loaded from: classes3.dex */
+public interface c {
+    long b(long j);
+}

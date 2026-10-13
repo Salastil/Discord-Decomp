@@ -1,0 +1,120 @@
+package com.discord.media_player.reactevents;
+
+import bs.h0;
+import bs.h1;
+import bs.j1;
+import bs.t0;
+import ds.r;
+import fo.d;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+import kotlinx.serialization.encoding.CompositeDecoder;
+import kotlinx.serialization.encoding.CompositeEncoder;
+import kotlinx.serialization.encoding.Decoder;
+import kotlinx.serialization.encoding.Encoder;
+import nf.e;
+import org.jetbrains.annotations.NotNull;
+
+@d
+@Metadata(d1 = {"\u0000:\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u0011\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\bÇ\u0002\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0003\u0010\u0004J\u001d\u0010\t\u001a\u00020\b2\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u0002¢\u0006\u0004\b\t\u0010\nJ\u0015\u0010\r\u001a\u00020\u00022\u0006\u0010\f\u001a\u00020\u000b¢\u0006\u0004\b\r\u0010\u000eJ\u0017\u0010\u0011\u001a\f\u0012\b\u0012\u0006\u0012\u0002\b\u00030\u00100\u000f¢\u0006\u0004\b\u0011\u0010\u0012R\u0017\u0010\u0014\u001a\u00020\u00138\u0006¢\u0006\f\n\u0004\b\u0014\u0010\u0015\u001a\u0004\b\u0016\u0010\u0017¨\u0006\u0018"}, d2 = {"com/discord/media_player/reactevents/MediaPlayerPlaybackProgressUpdated.$serializer", "Lbs/h0;", "Lcom/discord/media_player/reactevents/MediaPlayerPlaybackProgressUpdated;", "<init>", "()V", "Lkotlinx/serialization/encoding/Encoder;", "encoder", "value", "", "serialize", "(Lkotlinx/serialization/encoding/Encoder;Lcom/discord/media_player/reactevents/MediaPlayerPlaybackProgressUpdated;)V", "Lkotlinx/serialization/encoding/Decoder;", "decoder", "deserialize", "(Lkotlinx/serialization/encoding/Decoder;)Lcom/discord/media_player/reactevents/MediaPlayerPlaybackProgressUpdated;", "", "Lkotlinx/serialization/KSerializer;", "childSerializers", "()[Lkotlinx/serialization/KSerializer;", "Lkotlinx/serialization/descriptors/SerialDescriptor;", "descriptor", "Lkotlinx/serialization/descriptors/SerialDescriptor;", "getDescriptor", "()Lkotlinx/serialization/descriptors/SerialDescriptor;", "media_player_release"}, k = 1, mv = {2, 1, 0}, xi = 48)
+/* loaded from: classes.dex */
+public /* synthetic */ class MediaPlayerPlaybackProgressUpdated$$serializer implements h0 {
+
+    @NotNull
+    public static final MediaPlayerPlaybackProgressUpdated$$serializer INSTANCE;
+
+    @NotNull
+    private static final SerialDescriptor descriptor;
+
+    static {
+        MediaPlayerPlaybackProgressUpdated$$serializer mediaPlayerPlaybackProgressUpdated$$serializer = new MediaPlayerPlaybackProgressUpdated$$serializer();
+        INSTANCE = mediaPlayerPlaybackProgressUpdated$$serializer;
+        j1 j1Var = new j1("com.discord.media_player.reactevents.MediaPlayerPlaybackProgressUpdated", mediaPlayerPlaybackProgressUpdated$$serializer, 3);
+        j1Var.k("source", false);
+        j1Var.k("time", false);
+        j1Var.k("duration", false);
+        descriptor = j1Var;
+    }
+
+    private MediaPlayerPlaybackProgressUpdated$$serializer() {
+    }
+
+    @Override // bs.h0
+    @NotNull
+    public final KSerializer[] childSerializers() {
+        t0 t0Var = t0.a;
+        return new KSerializer[]{e.o(MediaPlayerPlaybackSource$$serializer.INSTANCE), t0Var, t0Var};
+    }
+
+    @Override // kotlinx.serialization.DeserializationStrategy
+    @NotNull
+    public final MediaPlayerPlaybackProgressUpdated deserialize(@NotNull Decoder decoder) {
+        int i5;
+        MediaPlayerPlaybackSource mediaPlayerPlaybackSource;
+        long j;
+        long j5;
+        Intrinsics.checkNotNullParameter(decoder, "decoder");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeDecoder beginStructure = decoder.beginStructure(serialDescriptor);
+        MediaPlayerPlaybackSource mediaPlayerPlaybackSource2 = null;
+        if (beginStructure.decodeSequentially()) {
+            mediaPlayerPlaybackSource = (MediaPlayerPlaybackSource) beginStructure.decodeNullableSerializableElement(serialDescriptor, 0, MediaPlayerPlaybackSource$$serializer.INSTANCE, null);
+            i5 = 7;
+            j = beginStructure.decodeLongElement(serialDescriptor, 1);
+            j5 = beginStructure.decodeLongElement(serialDescriptor, 2);
+        } else {
+            long j7 = 0;
+            boolean z5 = true;
+            int i6 = 0;
+            long j10 = 0;
+            while (z5) {
+                int decodeElementIndex = beginStructure.decodeElementIndex(serialDescriptor);
+                if (decodeElementIndex == -1) {
+                    z5 = false;
+                } else if (decodeElementIndex == 0) {
+                    mediaPlayerPlaybackSource2 = (MediaPlayerPlaybackSource) beginStructure.decodeNullableSerializableElement(serialDescriptor, 0, MediaPlayerPlaybackSource$$serializer.INSTANCE, mediaPlayerPlaybackSource2);
+                    i6 |= 1;
+                } else if (decodeElementIndex == 1) {
+                    j7 = beginStructure.decodeLongElement(serialDescriptor, 1);
+                    i6 |= 2;
+                } else {
+                    if (decodeElementIndex != 2) {
+                        throw new r(decodeElementIndex);
+                    }
+                    j10 = beginStructure.decodeLongElement(serialDescriptor, 2);
+                    i6 |= 4;
+                }
+            }
+            i5 = i6;
+            mediaPlayerPlaybackSource = mediaPlayerPlaybackSource2;
+            j = j7;
+            j5 = j10;
+        }
+        beginStructure.endStructure(serialDescriptor);
+        return new MediaPlayerPlaybackProgressUpdated(i5, mediaPlayerPlaybackSource, j, j5, null);
+    }
+
+    @Override // kotlinx.serialization.DeserializationStrategy
+    @NotNull
+    public final SerialDescriptor getDescriptor() {
+        return descriptor;
+    }
+
+    @Override // kotlinx.serialization.KSerializer
+    public final void serialize(@NotNull Encoder encoder, @NotNull MediaPlayerPlaybackProgressUpdated value) {
+        Intrinsics.checkNotNullParameter(encoder, "encoder");
+        Intrinsics.checkNotNullParameter(value, "value");
+        SerialDescriptor serialDescriptor = descriptor;
+        CompositeEncoder beginStructure = encoder.beginStructure(serialDescriptor);
+        MediaPlayerPlaybackProgressUpdated.write$Self$media_player_release(value, beginStructure, serialDescriptor);
+        beginStructure.endStructure(serialDescriptor);
+    }
+
+    @Override // bs.h0
+    @NotNull
+    public KSerializer[] typeParametersSerializers() {
+        return h1.f3190b;
+    }
+}

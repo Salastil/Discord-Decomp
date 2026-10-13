@@ -1,0 +1,7 @@
+package com.discord.permissions;
+
+/* loaded from: classes.dex */
+public final class R {
+    private R() {
+    }
+}
