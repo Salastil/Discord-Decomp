@@ -1,0 +1,11 @@
+<EXTERNAL>::__cxa_finalize
+<EXTERNAL>::__cxa_atexit
+<EXTERNAL>::__android_log_print
+<EXTERNAL>::__stack_chk_fail
+<EXTERNAL>::AndroidBitmap_getInfo
+<EXTERNAL>::AndroidBitmap_lockPixels
+<EXTERNAL>::malloc
+<EXTERNAL>::memset
+<EXTERNAL>::memcpy
+<EXTERNAL>::free
+<EXTERNAL>::AndroidBitmap_unlockPixels

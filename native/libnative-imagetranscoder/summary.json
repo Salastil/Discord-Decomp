@@ -1,0 +1,1 @@
+{"program": "libnative-imagetranscoder.so", "language": "AARCH64:LE:64:v8A", "functions": 1134, "decompiled_ok": 1132, "failed": 2, "strings": 979, "chunk_files": 3, "seconds": 26, "failed_functions_disassembled": 2}

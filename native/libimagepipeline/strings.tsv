@@ -1,0 +1,68 @@
+001004a9	__cxa_finalize
+001004b8	__cxa_atexit
+001004c5	JNI_OnLoad
+001004d0	__android_log_print
+001004e4	__stack_chk_fail
+001004f5	AndroidBitmap_lockPixels
+0010050e	memcpy
+00100515	AndroidBitmap_unlockPixels
+00100530	malloc
+00100537	free
+0010053c	libc.so
+00100544	LIBC
+00100549	liblog.so
+00100553	libjnigraphics.so
+00100565	libm.so
+0010056d	libdl.so
+00100576	libimagepipeline.so
+001008f0	Could not register NativeMemoryChunk methods
+0010091d	com/facebook/imagepipeline/nativecode/DalvikPurgeableDecoder
+0010095a	nativePinBitmap
+0010096a	Could not lock source's pixels
+00100989	nativeFree
+00100999	(JJI)V
+001009a0	nativeCopyBitmap
+001009b1	nativeCopyFromByteArray
+001009c9	nativeReadByte
+001009d8	could not find RuntimeException class
+001009fe	(Landroid/graphics/Bitmap;)V
+00100a1b	(Landroid/graphics/Bitmap;ILandroid/graphics/Bitmap;II)V
+00100a54	Failed to pin Bitmap
+00100a69	nativeMemcpy
+00100a76	Could not register Bitmaps methods
+00100a99	com/facebook/imagepipeline/memory/NativeMemoryChunk
+00100acd	java/lang/RuntimeException
+00100ae8	Could not register DalvikPurgeableDecoder methods
+00100b1f	com/facebook/imagepipeline/nativecode/Bitmaps
+00100b4d	could not allocate memory
+00100b67	nativeAllocate
+00100b76	(J[BII)V
+00100b7f	libimagepipeline
+00100b95	nativeCopyToByteArray
+00100bab	Could not lock desination's pixels
+00100c79	zR
+.comment::00000000	
+.comment::00000001	Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+.comment::000000b9	Linker: LLD 18.0.2
+.shstrtab::00000001	.fini_array
+.shstrtab::0000000d	.text
+.shstrtab::00000013	.comment
+.shstrtab::0000001c	.note.android.ident
+.shstrtab::00000030	.got.plt
+.shstrtab::00000039	.rela.plt
+.shstrtab::00000043	.bss
+.shstrtab::00000048	.dynstr
+.shstrtab::00000050	.eh_frame_hdr
+.shstrtab::0000005e	.gnu.version_r
+.shstrtab::0000006d	.data.rel.ro
+.shstrtab::0000007a	.rela.dyn
+.shstrtab::00000084	.gnu.version
+.shstrtab::00000091	.dynsym
+.shstrtab::00000099	.gnu.hash
+.shstrtab::000000a3	.relro_padding
+.shstrtab::000000b2	.eh_frame
+.shstrtab::000000bc	.note.gnu.build-id
+.shstrtab::000000cf	.dynamic
+.shstrtab::000000d8	.shstrtab
+.shstrtab::000000e2	.rodata
+.shstrtab::000000ea	.data

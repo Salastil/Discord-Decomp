@@ -1,0 +1,1 @@
+{"program": "libappmodules.so", "language": "AARCH64:LE:64:v8A", "functions": 15810, "decompiled_ok": 15807, "failed": 3, "strings": 11650, "chunk_files": 40, "seconds": 204, "failed_functions_disassembled": 3}

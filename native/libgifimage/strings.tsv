@@ -1,0 +1,981 @@
+00104aad	__cxa_finalize
+00104abc	__cxa_atexit
+00104ac9	JNI_OnLoad
+00104ad4	__stack_chk_fail
+00104ae5	DGifExtensionToGCB
+00104af8	pthread_rwlock_wrlock
+00104b0e	strerror
+00104b17	__android_log_print
+00104b2b	DGifGetImageDesc
+00104b3c	pthread_rwlock_unlock
+00104b52	pthread_rwlock_rdlock
+00104b68	DGifGetCode
+00104b74	DGifGetCodeNext
+00104b84	DGifGetLine
+00104b90	DGifGetExtension
+00104ba1	GifAddExtensionBlock
+00104bb6	DGifGetExtensionNext
+00104bcb	strncmp
+00104bd3	DGifGetRecordType
+00104be5	_Znwm
+00104beb	_ZdlPv
+00104bf2	DGifOpen
+00104bfb	memset
+00104c02	DGifCloseFile
+00104c10	memcpy
+00104c17	dup
+00104c1b	fdopen
+00104c22	fseek
+00104c28	__errno
+00104c30	ftell
+00104c36	AndroidBitmap_getInfo
+00104c4c	AndroidBitmap_lockPixels
+00104c65	AndroidBitmap_unlockPixels
+00104c80	GifMakeMapObject
+00104c91	pthread_rwlock_destroy
+00104ca8	fclose
+00104caf	fread
+00104cb5	memmove
+00104cbd	vsnprintf
+00104cc7	DGifOpenFileName
+00104cd8	DGifOpenFileHandle
+00104ceb	DGifGetScreenDesc
+00104cfd	__open_2
+00104d06	calloc
+00104d0d	close
+00104d13	free
+00104d18	GifFreeMapObject
+00104d29	DGifGetGifVersion
+00104d3b	DGifGetImageHeader
+00104d4e	openbsd_reallocarray
+00104d63	malloc
+00104d6a	DGifGetPixel
+00104d77	DGifSavedExtensionToGCB
+00104d8f	GifFreeSavedImages
+00104da2	GifFreeExtensions
+00104db4	DGifGetLZCodes
+00104dc3	DGifSlurp
+00104dcd	GifBitSize
+00104dd8	GifUnionColorMap
+00104de9	GifApplyTranslation
+00104dfd	FreeLastSavedImage
+00104e10	GifMakeSavedImage
+00104e22	realloc
+00104e2a	dl_iterate_phdr
+00104e3a	posix_memalign
+00104e49	syslog
+00104e50	snprintf
+00104e59	openlog
+00104e61	memchr
+00104e68	fwrite
+00104e6f	pthread_getspecific
+00104e83	__system_property_get
+00104e99	vfprintf
+00104ea2	fprintf
+00104eaa	abort
+00104eb0	closelog
+00104eb9	strlen
+00104ec0	getauxval
+00104eca	__sF
+00104ecf	pthread_cond_broadcast
+00104ee6	strcmp
+00104eed	pthread_key_delete
+00104f00	pthread_setspecific
+00104f14	pthread_cond_wait
+00104f26	strerror_r
+00104f31	syscall
+00104f39	pthread_once
+00104f46	vasprintf
+00104f50	pthread_mutex_lock
+00104f63	android_set_abort_message
+00104f7d	pthread_mutex_destroy
+00104f93	pthread_mutex_unlock
+00104fa8	getpid
+00104faf	memcmp
+00104fb6	pthread_key_create
+00104fc9	__assert2
+00104fd3	fflush
+00104fda	fputc
+00104fe0	_ZNSt9exceptionD2Ev
+00104ff4	__cxa_begin_catch
+00105006	_ZSt9terminatev
+00105016	_ZTVN10__cxxabiv120__si_class_type_infoE
+0010503f	_ZTISt9exception
+00105050	__cxa_pure_virtual
+00105063	_ZTVN10__cxxabiv117__class_type_infoE
+00105089	_ZTVN10__cxxabiv121__vmi_class_type_infoE
+001050b3	__gxx_personality_v0
+001050c8	__cxa_guard_acquire
+001050dc	__cxa_guard_release
+001050f0	_ZNSt13runtime_errorD2Ev
+00105109	__cxa_allocate_exception
+00105122	__cxa_throw
+0010512e	__cxa_free_exception
+00105143	_ZTISt12length_error
+00105158	_ZNSt12length_errorD1Ev
+00105170	_ZTVSt12length_error
+00105185	_ZNKSt13runtime_error4whatEv
+001051a2	_ZTISt13runtime_error
+001051b8	_ZTVSt11logic_error
+001051cc	_ZTVSt13runtime_error
+001051e2	_ZNSt13runtime_errorD1Ev
+001051fb	__cxa_end_catch
+0010520b	_ZTISt12out_of_range
+00105220	_ZNSt12out_of_rangeD1Ev
+00105238	_ZNSt20bad_array_new_lengthC1Ev
+00105258	_ZTISt20bad_array_new_length
+00105275	_ZNSt20bad_array_new_lengthD1Ev
+00105295	_ZTVSt12out_of_range
+001052aa	_ZTISt16invalid_argument
+001052c3	_ZNSt16invalid_argumentD1Ev
+001052df	_ZTVSt16invalid_argument
+001052f8	__cxa_guard_abort
+0010530a	_ZNSt11logic_errorD2Ev
+00105321	_ZNKSt11logic_error4whatEv
+0010533c	_ZTISt11logic_error
+00105350	__cxa_uncaught_exceptions
+0010536a	__cxa_decrement_exception_refcount
+0010538d	__cxa_increment_exception_refcount
+001053b0	__cxa_current_primary_exception
+001053d0	__cxa_rethrow_primary_exception
+001053f0	_ZSt14set_unexpectedPFvvE
+0010540a	__cxa_unexpected_handler
+00105423	_ZSt13set_terminatePFvvE
+0010543c	__cxa_terminate_handler
+00105454	_ZSt15set_new_handlerPFvvE
+0010546f	__cxa_new_handler
+00105481	__cxa_get_globals
+00105493	__cxa_get_globals_fast
+001054aa	_ZSt14get_unexpectedv
+001054c0	_ZSt10unexpectedv
+001054d2	_ZSt13get_terminatev
+001054e7	_ZSt15get_new_handlerv
+001054fe	__cxa_demangle
+0010550d	__emutls_get_address
+00105522	__cxa_deleted_virtual
+00105538	_ZNSt9exceptionD0Ev
+0010554c	_ZNSt9exceptionD1Ev
+00105560	_ZNKSt9exception4whatEv
+00105578	_ZNSt13bad_exceptionD0Ev
+00105591	_ZNSt13bad_exceptionD1Ev
+001055aa	_ZNKSt13bad_exception4whatEv
+001055c7	_ZNSt9bad_allocC2Ev
+001055db	_ZTVSt9bad_alloc
+001055ec	_ZNSt9bad_allocD0Ev
+00105600	_ZNSt9bad_allocD1Ev
+00105614	_ZNKSt9bad_alloc4whatEv
+0010562c	_ZNSt20bad_array_new_lengthC2Ev
+0010564c	_ZTVSt20bad_array_new_length
+00105669	_ZNSt20bad_array_new_lengthD0Ev
+00105689	_ZNKSt20bad_array_new_length4whatEv
+001056ad	_ZTISt9bad_alloc
+001056be	_ZTVSt9exception
+001056cf	_ZTSSt9exception
+001056e0	_ZTVSt13bad_exception
+001056f6	_ZTISt13bad_exception
+0010570c	_ZTSSt13bad_exception
+00105722	_ZTSSt20bad_array_new_length
+0010573f	_ZTSSt9bad_alloc
+00105750	_ZNSt13bad_exceptionD2Ev
+00105769	_ZNSt9bad_allocC1Ev
+0010577d	_ZNSt9bad_allocD2Ev
+00105791	_ZNSt20bad_array_new_lengthD2Ev
+001057b1	_ZNSt11logic_errorD0Ev
+001057c8	_ZNSt11logic_errorD1Ev
+001057df	_ZNSt13runtime_errorD0Ev
+001057f8	_ZNSt12domain_errorD0Ev
+00105810	_ZNSt12domain_errorD1Ev
+00105828	_ZNSt16invalid_argumentD0Ev
+00105844	_ZNSt12length_errorD0Ev
+0010585c	_ZNSt12out_of_rangeD0Ev
+00105874	_ZNSt11range_errorD0Ev
+0010588b	_ZNSt11range_errorD1Ev
+001058a2	_ZNSt14overflow_errorD0Ev
+001058bc	_ZNSt14overflow_errorD1Ev
+001058d6	_ZNSt15underflow_errorD0Ev
+001058f1	_ZNSt15underflow_errorD1Ev
+0010590c	_ZTVSt12domain_error
+00105921	_ZTISt12domain_error
+00105936	_ZTSSt12domain_error
+0010594b	_ZTSSt11logic_error
+0010595f	_ZTSSt16invalid_argument
+00105978	_ZTSSt12length_error
+0010598d	_ZTSSt12out_of_range
+001059a2	_ZTVSt11range_error
+001059b6	_ZTISt11range_error
+001059ca	_ZTSSt11range_error
+001059de	_ZTSSt13runtime_error
+001059f4	_ZTVSt14overflow_error
+00105a0b	_ZTISt14overflow_error
+00105a22	_ZTSSt14overflow_error
+00105a39	_ZTVSt15underflow_error
+00105a51	_ZTISt15underflow_error
+00105a69	_ZTSSt15underflow_error
+00105a81	_ZNSt12domain_errorD2Ev
+00105a99	_ZNSt16invalid_argumentD2Ev
+00105ab5	_ZNSt12length_errorD2Ev
+00105acd	_ZNSt12out_of_rangeD2Ev
+00105ae5	_ZNSt11range_errorD2Ev
+00105afc	_ZNSt14overflow_errorD2Ev
+00105b16	_ZNSt15underflow_errorD2Ev
+00105b31	_ZNSt9type_infoD2Ev
+00105b45	_ZNSt9type_infoD0Ev
+00105b59	_ZNSt9type_infoD1Ev
+00105b6d	_ZNSt8bad_castC2Ev
+00105b80	_ZTVSt8bad_cast
+00105b90	_ZNSt8bad_castD2Ev
+00105ba3	_ZNSt8bad_castD0Ev
+00105bb6	_ZNSt8bad_castD1Ev
+00105bc9	_ZNKSt8bad_cast4whatEv
+00105be0	_ZNSt10bad_typeidC2Ev
+00105bf6	_ZTVSt10bad_typeid
+00105c09	_ZNSt10bad_typeidD2Ev
+00105c1f	_ZNSt10bad_typeidD0Ev
+00105c35	_ZNSt10bad_typeidD1Ev
+00105c4b	_ZNKSt10bad_typeid4whatEv
+00105c65	_ZTISt8bad_cast
+00105c75	_ZTISt10bad_typeid
+00105c88	_ZTVSt9type_info
+00105c99	_ZTISt9type_info
+00105caa	_ZTSSt9type_info
+00105cbb	_ZTSSt8bad_cast
+00105ccb	_ZTSSt10bad_typeid
+00105cde	_ZNSt8bad_castC1Ev
+00105cf1	_ZNSt10bad_typeidC1Ev
+00105d07	_ZTIN10__cxxabiv116__shim_type_infoE
+00105d2c	_ZTIN10__cxxabiv117__class_type_infoE
+00105d52	__dynamic_cast
+00105d61	_ZTIN10__cxxabiv117__pbase_type_infoE
+00105d87	_ZTSDn
+00105d8e	_ZTIN10__cxxabiv119__pointer_type_infoE
+00105db6	_ZTSv
+00105dbc	_ZTIN10__cxxabiv120__function_type_infoE
+00105de5	_ZTIN10__cxxabiv129__pointer_to_member_type_infoE
+00105e17	_ZTSN10__cxxabiv116__shim_type_infoE
+00105e3c	_ZTSN10__cxxabiv117__class_type_infoE
+00105e62	_ZTSN10__cxxabiv117__pbase_type_infoE
+00105e88	_ZTSN10__cxxabiv119__pointer_type_infoE
+00105eb0	_ZTSN10__cxxabiv120__function_type_infoE
+00105ed9	_ZTSN10__cxxabiv129__pointer_to_member_type_infoE
+00105f0b	_ZTVN10__cxxabiv116__shim_type_infoE
+00105f30	_ZTVN10__cxxabiv123__fundamental_type_infoE
+00105f5c	_ZTIN10__cxxabiv123__fundamental_type_infoE
+00105f88	_ZTSN10__cxxabiv123__fundamental_type_infoE
+00105fb4	_ZTIv
+00105fba	_ZTSPv
+00105fc1	_ZTIPv
+00105fc8	_ZTVN10__cxxabiv119__pointer_type_infoE
+00105ff0	_ZTSPKv
+00105ff8	_ZTIPKv
+00106000	_ZTIDn
+00106007	_ZTSPDn
+0010600f	_ZTIPDn
+00106017	_ZTSPKDn
+00106020	_ZTIPKDn
+00106029	_ZTSb
+0010602f	_ZTIb
+00106035	_ZTSPb
+0010603c	_ZTIPb
+00106043	_ZTSPKb
+0010604b	_ZTIPKb
+00106053	_ZTSw
+00106059	_ZTIw
+0010605f	_ZTSPw
+00106066	_ZTIPw
+0010606d	_ZTSPKw
+00106075	_ZTIPKw
+0010607d	_ZTSc
+00106083	_ZTIc
+00106089	_ZTSPc
+00106090	_ZTIPc
+00106097	_ZTSPKc
+0010609f	_ZTIPKc
+001060a7	_ZTSh
+001060ad	_ZTIh
+001060b3	_ZTSPh
+001060ba	_ZTIPh
+001060c1	_ZTSPKh
+001060c9	_ZTIPKh
+001060d1	_ZTSa
+001060d7	_ZTIa
+001060dd	_ZTSPa
+001060e4	_ZTIPa
+001060eb	_ZTSPKa
+001060f3	_ZTIPKa
+001060fb	_ZTSs
+00106101	_ZTIs
+00106107	_ZTSPs
+0010610e	_ZTIPs
+00106115	_ZTSPKs
+0010611d	_ZTIPKs
+00106125	_ZTSt
+0010612b	_ZTIt
+00106131	_ZTSPt
+00106138	_ZTIPt
+0010613f	_ZTSPKt
+00106147	_ZTIPKt
+0010614f	_ZTSi
+00106155	_ZTIi
+0010615b	_ZTSPi
+00106162	_ZTIPi
+00106169	_ZTSPKi
+00106171	_ZTIPKi
+00106179	_ZTSj
+0010617f	_ZTIj
+00106185	_ZTSPj
+0010618c	_ZTIPj
+00106193	_ZTSPKj
+0010619b	_ZTIPKj
+001061a3	_ZTSl
+001061a9	_ZTIl
+001061af	_ZTSPl
+001061b6	_ZTIPl
+001061bd	_ZTSPKl
+001061c5	_ZTIPKl
+001061cd	_ZTSm
+001061d3	_ZTIm
+001061d9	_ZTSPm
+001061e0	_ZTIPm
+001061e7	_ZTSPKm
+001061ef	_ZTIPKm
+001061f7	_ZTSx
+001061fd	_ZTIx
+00106203	_ZTSPx
+0010620a	_ZTIPx
+00106211	_ZTSPKx
+00106219	_ZTIPKx
+00106221	_ZTSy
+00106227	_ZTIy
+0010622d	_ZTSPy
+00106234	_ZTIPy
+0010623b	_ZTSPKy
+00106243	_ZTIPKy
+0010624b	_ZTSn
+00106251	_ZTIn
+00106257	_ZTSPn
+0010625e	_ZTIPn
+00106265	_ZTSPKn
+0010626d	_ZTIPKn
+00106275	_ZTSo
+0010627b	_ZTIo
+00106281	_ZTSPo
+00106288	_ZTIPo
+0010628f	_ZTSPKo
+00106297	_ZTIPKo
+0010629f	_ZTSDh
+001062a6	_ZTIDh
+001062ad	_ZTSPDh
+001062b5	_ZTIPDh
+001062bd	_ZTSPKDh
+001062c6	_ZTIPKDh
+001062cf	_ZTSf
+001062d5	_ZTIf
+001062db	_ZTSPf
+001062e2	_ZTIPf
+001062e9	_ZTSPKf
+001062f1	_ZTIPKf
+001062f9	_ZTSd
+001062ff	_ZTId
+00106305	_ZTSPd
+0010630c	_ZTIPd
+00106313	_ZTSPKd
+0010631b	_ZTIPKd
+00106323	_ZTSe
+00106329	_ZTIe
+0010632f	_ZTSPe
+00106336	_ZTIPe
+0010633d	_ZTSPKe
+00106345	_ZTIPKe
+0010634d	_ZTSg
+00106353	_ZTIg
+00106359	_ZTSPg
+00106360	_ZTIPg
+00106367	_ZTSPKg
+0010636f	_ZTIPKg
+00106377	_ZTSDu
+0010637e	_ZTIDu
+00106385	_ZTSPDu
+0010638d	_ZTIPDu
+00106395	_ZTSPKDu
+0010639e	_ZTIPKDu
+001063a7	_ZTSDs
+001063ae	_ZTIDs
+001063b5	_ZTSPDs
+001063bd	_ZTIPDs
+001063c5	_ZTSPKDs
+001063ce	_ZTIPKDs
+001063d7	_ZTSDi
+001063de	_ZTIDi
+001063e5	_ZTSPDi
+001063ed	_ZTIPDi
+001063f5	_ZTSPKDi
+001063fe	_ZTIPKDi
+00106407	_ZTVN10__cxxabiv117__array_type_infoE
+0010642d	_ZTIN10__cxxabiv117__array_type_infoE
+00106453	_ZTSN10__cxxabiv117__array_type_infoE
+00106479	_ZTVN10__cxxabiv120__function_type_infoE
+001064a2	_ZTVN10__cxxabiv116__enum_type_infoE
+001064c7	_ZTIN10__cxxabiv116__enum_type_infoE
+001064ec	_ZTSN10__cxxabiv116__enum_type_infoE
+00106511	_ZTIN10__cxxabiv120__si_class_type_infoE
+0010653a	_ZTSN10__cxxabiv120__si_class_type_infoE
+00106563	_ZTIN10__cxxabiv121__vmi_class_type_infoE
+0010658d	_ZTSN10__cxxabiv121__vmi_class_type_infoE
+001065b7	_ZTVN10__cxxabiv117__pbase_type_infoE
+001065dd	_ZTVN10__cxxabiv129__pointer_to_member_type_infoE
+0010660f	_ZnwmRKSt9nothrow_t
+00106623	_Znam
+00106629	_ZnamRKSt9nothrow_t
+0010663d	_ZdlPvRKSt9nothrow_t
+00106652	_ZdlPvm
+0010665a	_ZdaPv
+00106661	_ZdaPvRKSt9nothrow_t
+00106676	_ZdaPvm
+0010667e	_ZnwmSt11align_val_t
+00106693	_ZnwmSt11align_val_tRKSt9nothrow_t
+001066b6	_ZnamSt11align_val_t
+001066cb	_ZnamSt11align_val_tRKSt9nothrow_t
+001066ee	_ZdlPvSt11align_val_t
+00106704	_ZdlPvSt11align_val_tRKSt9nothrow_t
+00106728	_ZdlPvmSt11align_val_t
+0010673f	_ZdaPvSt11align_val_t
+00106755	_ZdaPvSt11align_val_tRKSt9nothrow_t
+00106779	_ZdaPvmSt11align_val_t
+00106790	__cxa_allocate_dependent_exception
+001067b3	__cxa_free_dependent_exception
+001067d2	__cxa_get_exception_ptr
+001067ea	__cxa_current_exception_type
+00106807	__cxa_rethrow
+00106815	__cxa_uncaught_exception
+0010682e	__cxa_call_unexpected
+00106844	libdl.so
+0010684d	LIBC
+00106852	libc.so
+0010685a	libjnigraphics.so
+0010686c	liblog.so
+00106876	libandroid.so
+00106884	libm.so
+0010688c	libgifimage.so
+001122b0	unspecified system_category error
+001122d2	Pure virtual function called!
+001122f0	false
+001122f6	VTT for 
+001122ff	operator+=
+0011230a	wchar_t
+00112312	unsigned short
+00112321	unsigned long long
+00112334	 decltype(auto)
+00112344	(base != 0) && "DW_EH_PE_datarel is invalid with a base of 0"
+00112386	pthread_rwlock_rdlock returned %s
+001123a8	%s failed to release mutex
+001123c3	%s:%d: %s
+001123d2	__float128
+001123dd	decltype(auto)
+001123ec	 imaginary
+001123f7	libunwind: %s - %s\n
+0011240b	DW_EH_PE_funcrel pointer encoding not supported
+00112443	nativeGetLoopCount
+00112456	nativeRenderFrame
+0011246d	typename 
+00112477	getSavedFloatRegister
+00112491	ByteBuffer must be direct
+001124ab	GifImage
+001124b4	nativeCreateFromDirectByteBuffer
+001124d5	unexpected_handler unexpectedly returned
+00112501	operator=
+0011250b	operator,
+00112515	operator>=
+00112520	__int128
+00112529	libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big\n
+00112570	nativeGetFrameCount
+00112584	(I)Lcom/facebook/animated/gif/GifFrame;
+001125b0	std::exception
+001125bf	std::bad_cast
+001125cd	operator.*
+001125d8	sizeof 
+001125e0	 [enable_if:
+001125ed	libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range\n\n
+00112653	CIE version is not 1 or 3
+0011266d	NETSCAPE2.0
+00112679	Width or height is too small
+00112696	Unable to open file: %s
+001126ae	nativeDispose
+001126bc	bad_array_new_length
+001126d1	operator&
+001126db	operator<<
+001126e6	operator|
+001126f0	operator>>
+001126fb	yptnk
+00112701	::friend 
+0011270b	char8_t
+00112713	std::nullptr_t
+00112722	_Unwind_Resume() can't return
+00112740	libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big\n
+00112782	Can't binary search on variable length encoded data.
+001127bf	unspecified generic_category error
+001127e2	%s failed to acquire mutex
+001127fd	operator==
+00112808	operator++
+00112813	static_cast
+00112824	ro.arch
+0011282c	getULEB128
+0011283d	Index exceeds GIF file image count
+00112860	Unable to get file size: %s
+0011287c	java/lang/IllegalArgumentException
+0011289f	libc++
+001128aa	long double
+001128b6	 complex
+001128bf	unsigned 
+001128c9	actions & (_UA_SEARCH_PHASE | _UA_FORCE_UNWIND)
+001128f9	libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big\n
+00112943	FDE has zero length
+00112957	terminate_handler unexpectedly returned
+0011297f	non-virtual thunk to 
+00112995	Invalid access!
+001129a5	operator&&
+001129b0	dynamic_cast
+001129bd	Popping empty vector!
+001129d3	noexcept
+001129dc	void __cxxabiv1::scan_eh_tab(scan_results &, _Unwind_Action, bool, _Unwind_Exception *, _Unwind_Context *)
+00112a47	truncated uleb128 expression
+00112a64	libunwind: unsupported .eh_frame_hdr version: %u at %lx\n
+00112aad	pthread_rwlock_wrlock returned %s
+00112acf	length_error was thrown in -fno-exceptions mode with message "%s"
+00112b11	__cxa_guard_release
+00112b25	uncaught
+00112b2e	typeinfo name for 
+00112b41	operator co_await
+00112b53	reinterpret_cast
+00112b69	exynos9810
+00112b74	unsupported arm64 register
+00112b8f	unsupported restore location for register
+00112bb9	getTableEntrySize
+00112bcb	nativeGetWidth
+00112bda	std::bad_alloc
+00112be9	operator&=
+00112bf4	operator[]
+00112bff	operator<
+00112c09	operator new[]
+00112c18	operator|=
+00112c27	decimal128
+00112c32	union
+00112c38	truncated sleb128 expression
+00112c55	DW_OP_piece not implemented
+00112c7b	Error %d
+00112c84	terminating due to %s exception of type %s
+00112cb2	operator delete[]
+00112cc9	sizeof...
+00112cd3	out/llvm-project/libcxxabi/src/demangle/Utility.h
+00112d05	evaluateExpression
+00112d1b	pthread_rwlock_unlock write returned %s
+00112d43	nativeGetYOffset
+00112d54	java/lang/IllegalStateException
+00112d7b	sizeof... 
+00112d86	const_cast
+00112d91	operator~
+00112d9b	operator>>=
+00112da7	short
+00112dad	unsigned __int128
+00112dbf	unwind_phase2
+00112dcd	malformed uleb128 expression
+00112dea	unsupported restore location for float register
+00112e21	Invalid dimensions
+00112e34	Unable to seek to beginning of file: %s
+00112e5f	std::bad_exception
+00112e72	decltype
+00112e7b	operator.
+00112e85	operator-
+00112e8f	operator name does not start with 'operator'
+00112ebc	double
+00112ec3	libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big\n
+00112f04	DW_EH_PE_aligned pointer encoding not supported
+00112f34	getSavedRegister
+00112f49	com/facebook/animated/gif/GifImage
+00112f70	nativeGetXOffset
+00112f86	initializer for module 
+00112f9e	(anonymous namespace)
+00112fb4	operator<=>
+00112fc4	getRegister
+00112fd8	FDE is really a CIE
+00112fef	GIF89a
+00112ff6	terminating due to %s foreign exception
+0011301e	thread-local initialization routine for 
+00113047	guard variable for 
+0011305b	alignof 
+00113064	operator*
+0011306e	unsigned char
+0011307c	> typename 
+00113088	nativeCreateFromNativeMemory
+001130a5	nativeCreateFromFileDescriptor
+001130c4	nativeGetHeight
+001130d4	nativeGetDisposalMode
+001130ea	mutex lock failed
+001130fc	terminate_handler unexpectedly threw an exception
+0011312e	unexpected
+00113139	vtable for 
+00113148	operator*=
+00113158	 noexcept
+00113162	string literal
+00113175	char32_t
+0011317e	actions & _UA_SEARCH_PHASE
+00113199	libunwind: malformed DW_CFA_expression DWARF unwind, reg too big\n
+001131df	Failed to slurp image %d
+001131f8	out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h
+00113232	typeinfo for 
+00113240	shrinkToSize() can't expand!
+0011325d	_Unwind_Reason_Code __cxxabiv1::__gxx_personality_v0(int, _Unwind_Action, uint64_t, _Unwind_Exception *, _Unwind_Context *)
+001132d9	actions & _UA_CLEANUP_PHASE
+001132f5	libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big\n
+00113349	operator<=
+00113359	out/llvm-project/libcxxabi/src/fallback_malloc.cpp
+0011338c	unknown pointer encoding
+001133a5	getSLEB128
+001133b0	DW_OP_deref_size with bad size
+001133d8	operator--
+001133e3	<char, std::char_traits<char>
+00113401	uintptr_t __cxxabiv1::readEncodedPointer(const uint8_t **, uint8_t, uintptr_t)
+00113450	during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+001134b3	libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd\n
+0011351b	Unable to seek to end of file: %s
+0011353d	nativeIsAnimated
+0011354e	__cxa_guard_abort
+00113560	Deleted virtual function called!
+00113585	decimal32
+0011358f	setRegister
+0011359f	Already disposed
+001135b0	<init>
+001135b7	com/facebook/animated/gif/GifFrame
+001135da	nativeGetFrameDurations
+001135f2	thread-local wrapper routine for 
+00113614	operator()
+0011361f	libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big\n
+00113667	DW_EH_PE_textrel pointer encoding not supported
+00113697	DWARF opcode not implemented
+001136bf	Bad bitmap
+001136ca	Width or height is negative
+001136e6	(IILandroid/graphics/Bitmap;)V
+00113705	nativeHasTransparency
+0011371b	Unknown error %d
+0011372c	__cxa_guard_acquire
+00113740	noexcept 
+0011374a	operator delete
+0011375a	 at offset 
+00113766	allocator
+00113770	unsigned int
+0011377d	actions & (_UA_SEARCH_PHASE | _UA_HANDLER_FRAME | _UA_FORCE_UNWIND)
+001137c1	libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big\n
+00113820	vector
+00113827	(JIIZ)Lcom/facebook/animated/gif/GifImage;
+0011385b	nativeGetSizeInBytes
+00113878	'block-literal'
+00113888	basic_iostream
+001138a1	unknown register
+001138b2	No frames in image
+001138c5	pthread_rwlock_unlock read returned %s
+001138ec	nativeGetFrame
+001138fb	terminating due to %s exception of type %s: %s
+0011392f	invocation function for block in 
+00113951	covariant return thunk to 
+0011396f	operator%
+00113979	signed char
+00113985	long long
+0011398f	decimal64
+0011399e	DW_EH_PE_datarel is invalid with a datarelBase of 0
+001139d2	Unknown DWARF encoding for search table.
+00113a01	basic_string
+00113a0e	template parameter object for 
+00113a2d	construction vtable for 
+00113a46	operator/=
+00113a51	operator!
+00113a5b	operator->*
+00113a67	, std::allocator<char>
+00113a7e	libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big\n
+00113ad2	nativeGetDurationMs
+00113ae6	nativeGetTransparentPixelColor
+00113b08	throw
+00113b11	operator
+00113b1a	operator/
+00113b24	operator?
+00113b2e	nullptr
+00113b36	 typename 
+00113b41	operator"" 
+00113b4d	float
+00113b53	out/llvm-project/libcxxabi/src/cxa_personality.cpp
+00113b86	libunwind: malformed DW_CFA_register DWARF unwind, reg too big\n
+00113bc6	libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big\n
+00113c12	nativeGetDuration
+00113c24	nativeFinalize
+00113c33	system
+00113c3a	__cxa_guard_acquire detected recursive initialization: do you have a function-local static variable whose initialization depends on that function?
+00113ccd	operator<<=
+00113cd9	operator%=
+00113ce4	operator 
+00113cee	basic_ostream
+00113cfc	 volatile
+00113d0c	_Unwind_Resume
+00113d1b	libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big\n
+00113d5f	CIE ID is not zero
+00113d72	mNativeContext
+00113d81	(Ljava/nio/ByteBuffer;IZ)Lcom/facebook/animated/gif/GifImage;
+00113dc2	%s failed to broadcast
+00113dd9	std::bad_typeid
+00113de9	operator^
+00113df3	operator!=
+00113e01	 restrict
+00113e10	unsigned long
+00113e1e	CIE start does not match
+00113e37	libc++abi
+00113e41	operator>
+00113e4b	template<
+00113e55	basic_istream
+00113e63	pixel vector[
+00113e7e	(IIZ)Lcom/facebook/animated/gif/GifImage;
+00113ea8	libc++abi: 
+00113eb4	virtual thunk to 
+00113ec6	operator new
+00113ed3	operator||
+00113ede	operator+
+00113ee8	typeid 
+00113ef2	 requires 
+00113f02	char16_t
+00113f0b	results.reason == _URC_HANDLER_FOUND
+00113f30	libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big\n
+00113f75	getEncodedP
+00113f81	DW_OP_fbreg not implemented
+00113fa9	Wrong color format
+00113fbc	bad_array_new_length was thrown in -fno-exceptions mode
+00113ff4	generic
+00113ffc	terminating
+00114008	out/llvm-project/libcxxabi/src/cxa_demangle.cpp
+00114038	reference temporary for 
+00114051	operator^=
+0011405c	operator-=
+00114067	operator->
+00114072	struct
+00114079	libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big\n
+001140ea	NSt6__ndk112system_errorE
+00114104	NSt6__ndk112__do_messageE
+0011411e	NSt6__ndk124__generic_error_categoryE
+00114144	NSt6__ndk123__system_error_categoryE
+00114169	NSt6__ndk114error_categoryE
+00114185	St9exception
+00114192	St13bad_exception
+001141a4	St20bad_array_new_length
+001141bd	St9bad_alloc
+001141ca	St12domain_error
+001141db	St11logic_error
+001141eb	St16invalid_argument
+00114200	St12length_error
+00114211	St12out_of_range
+00114222	St11range_error
+00114232	St13runtime_error
+00114244	St14overflow_error
+00114257	St15underflow_error
+0011426b	N10__cxxabiv116__shim_type_infoE
+0011428c	N10__cxxabiv117__class_type_infoE
+001142ae	N10__cxxabiv117__pbase_type_infoE
+001142d0	N10__cxxabiv119__pointer_type_infoE
+001142f4	N10__cxxabiv120__function_type_infoE
+00114319	N10__cxxabiv129__pointer_to_member_type_infoE
+00114360	N10__cxxabiv123__fundamental_type_infoE
+00114388	v
+0011438a	Pv
+0011438d	PKv
+00114391	Dn
+00114394	PDn
+00114398	PKDn
+0011439d	b
+0011439f	Pb
+001143a2	PKb
+001143a6	w
+001143a8	Pw
+001143ab	PKw
+001143af	c
+001143b1	Pc
+001143b4	PKc
+001143b8	h
+001143ba	Ph
+001143bd	PKh
+001143c1	a
+001143c3	Pa
+001143c6	PKa
+001143ca	s
+001143cc	Ps
+001143cf	PKs
+001143d3	t
+001143d5	Pt
+001143d8	PKt
+001143dc	i
+001143de	Pi
+001143e1	PKi
+001143e5	j
+001143e7	Pj
+001143ea	PKj
+001143ee	l
+001143f0	Pl
+001143f3	PKl
+001143f7	m
+001143f9	Pm
+001143fc	PKm
+00114400	x
+00114402	Px
+00114405	PKx
+00114409	y
+0011440b	Py
+0011440e	PKy
+00114412	n
+00114414	Pn
+00114417	PKn
+0011441b	o
+0011441d	Po
+00114420	PKo
+00114424	Dh
+00114427	PDh
+0011442b	PKDh
+00114430	f
+00114432	Pf
+00114435	PKf
+00114439	d
+0011443b	Pd
+0011443e	PKd
+00114442	e
+00114444	Pe
+00114447	PKe
+0011444b	g
+0011444d	Pg
+00114450	PKg
+00114454	Du
+00114457	PDu
+0011445b	PKDu
+00114460	Ds
+00114463	PDs
+00114467	PKDs
+0011446c	Di
+0011446f	PDi
+00114473	PKDi
+00114478	N10__cxxabiv117__array_type_infoE
+0011449a	N10__cxxabiv116__enum_type_infoE
+001144bb	N10__cxxabiv120__si_class_type_infoE
+001144e0	N10__cxxabiv121__vmi_class_type_infoE
+00114506	St9type_info
+00114513	St8bad_cast
+0011451f	St10bad_typeid
+0011469c	N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+001146cc	N12_GLOBAL__N_116itanium_demangle4NodeE
+001146f4	N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+0011472e	N12_GLOBAL__N_116itanium_demangle8NameTypeE
+0011475a	N12_GLOBAL__N_116itanium_demangle10ModuleNameE
+00114789	N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+001147c6	N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+001147f5	N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+00114824	N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+00114854	N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+0011488b	N12_GLOBAL__N_116itanium_demangle10MemberExprE
+001148ba	N12_GLOBAL__N_116itanium_demangle7NewExprE
+001148e5	N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+00114914	N12_GLOBAL__N_116itanium_demangle8CallExprE
+00114940	N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+00114973	N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+001149a7	N12_GLOBAL__N_116itanium_demangle8CastExprE
+001149d3	N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+00114a05	N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+00114a38	N12_GLOBAL__N_116itanium_demangle8BoolExprE
+00114a64	N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+00114a9c	N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+00114ad4	N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+00114b0c	N12_GLOBAL__N_116itanium_demangle13StringLiteralE
+00114b3e	N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+00114b72	N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE
+00114bb1	N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE
+00114beb	N12_GLOBAL__N_116itanium_demangle32ConstrainedTypeTemplateParamDeclE
+00114c30	N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE
+00114c6d	N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE
+00114cab	N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE
+00114ce5	N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+00114d19	N12_GLOBAL__N_116itanium_demangle10LambdaExprE
+00114d48	N12_GLOBAL__N_116itanium_demangle11EnumLiteralE
+00114d78	N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+00114daa	N12_GLOBAL__N_116itanium_demangle8FoldExprE
+00114dd6	N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+00114e11	N12_GLOBAL__N_116itanium_demangle10BracedExprE
+00114e40	N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+00114e74	N12_GLOBAL__N_116itanium_demangle12InitListExprE
+00114ea5	N12_GLOBAL__N_116itanium_demangle29PointerToMemberConversionExprE
+00114ee7	N12_GLOBAL__N_116itanium_demangle15ExprRequirementE
+00114f1b	N12_GLOBAL__N_116itanium_demangle15TypeRequirementE
+00114f4f	N12_GLOBAL__N_116itanium_demangle17NestedRequirementE
+00114f85	N12_GLOBAL__N_116itanium_demangle12RequiresExprE
+00114fb6	N12_GLOBAL__N_116itanium_demangle13SubobjectExprE
+00114fe8	N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+00115020	N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+00115052	N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+0011507f	N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+001150b1	N12_GLOBAL__N_116itanium_demangle8DtorNameE
+001150dd	N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+00115118	N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+0011514c	N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+00115184	N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+001151bc	N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+001151fc	N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+0011522b	N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+00115265	N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+00115296	N12_GLOBAL__N_116itanium_demangle12ModuleEntityE
+001152c7	N12_GLOBAL__N_116itanium_demangle20MemberLikeFriendNameE
+00115300	N12_GLOBAL__N_116itanium_demangle10NestedNameE
+0011532f	N12_GLOBAL__N_116itanium_demangle9LocalNameE
+0011535c	N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+0011538e	N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+001153bf	N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+001153f8	N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+00115431	N12_GLOBAL__N_116itanium_demangle25TemplateParamQualifiedArgE
+0011546f	N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+001154a0	N12_GLOBAL__N_116itanium_demangle23ExplicitObjectParameterE
+001154dc	N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+00115511	N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+0011553e	N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+0011556f	N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+001155a8	N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+001155d9	N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+0011560b	N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+00115641	N12_GLOBAL__N_116itanium_demangle8QualTypeE
+0011566d	N12_GLOBAL__N_116itanium_demangle15TransformedTypeE
+001156a1	N12_GLOBAL__N_116itanium_demangle12BinaryFPTypeE
+001156d2	N12_GLOBAL__N_116itanium_demangle10BitIntTypeE
+00115701	N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+0011573a	N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+0011576e	N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+0011579d	N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+001157ca	N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+00115802	N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+0011583d	N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+0011586d	N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+00117f99	zR
+0011ef29	zPLR
+.comment::00000000	
+.comment::00000001	Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+.comment::000000b9	Linker: LLD 18.0.2
+.shstrtab::00000001	.init_array
+.shstrtab::0000000d	.fini_array
+.shstrtab::00000019	.text
+.shstrtab::0000001f	.got
+.shstrtab::00000024	.comment
+.shstrtab::0000002d	.note.android.ident
+.shstrtab::00000041	.got.plt
+.shstrtab::0000004a	.rela.plt
+.shstrtab::00000054	.bss
+.shstrtab::00000059	.dynstr
+.shstrtab::00000061	.eh_frame_hdr
+.shstrtab::0000006f	.gnu.version_r
+.shstrtab::0000007e	.data.rel.ro
+.shstrtab::0000008b	.rela.dyn
+.shstrtab::00000095	.gnu.version
+.shstrtab::000000a2	.dynsym
+.shstrtab::000000aa	.gnu.hash
+.shstrtab::000000b4	.relro_padding
+.shstrtab::000000c3	.eh_frame
+.shstrtab::000000cd	.gcc_except_table
+.shstrtab::000000df	.note.gnu.build-id
+.shstrtab::000000f2	.dynamic
+.shstrtab::000000fb	.shstrtab
+.shstrtab::00000105	.rodata
+.shstrtab::0000010d	.data

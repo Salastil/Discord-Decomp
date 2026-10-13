@@ -1,0 +1,90 @@
+001004f1	__cxa_finalize
+00100500	__cxa_atexit
+0010050d	JNI_OnLoad
+00100518	__android_log_print
+0010052c	__stack_chk_fail
+0010053d	AndroidBitmap_getInfo
+00100553	AndroidBitmap_lockPixels
+0010056c	malloc
+00100573	memset
+0010057a	memcpy
+00100581	free
+00100586	AndroidBitmap_unlockPixels
+001005a1	libc.so
+001005a9	LIBC
+001005ae	liblog.so
+001005b8	libjnigraphics.so
+001005ca	libm.so
+001005d2	libdl.so
+001005db	libnative-filters.so
+001008b0	Rounding#toCircleWithOptionalBorder: Unexpected bitmap format
+001008ee	Invalid internal state!
+00100906	Rounding#addRoundedCorners: Failed to get Bitmap info
+0010093c	libnative-filters
+0010094e	BlurFilter_iterativeBoxBlur: Iterations argument out of bounds
+0010098d	BlurFilter_iterativeBoxBlur: Unexpected bitmap format
+001009c3	Rounding#addRoundedCorners: nexpected bitmap format
+001009f7	Could not register NativeRoundingFilter methods
+00100a27	Could not register NativeBlurFilter methods
+00100a53	BlurFilter_iterativeBoxBlur: Failed to get Bitmap info
+00100a8a	Rounding#toCircleFastWithOptionalBorder: Failed to unlock Bitmap pixels
+00100ad2	com/facebook/imagepipeline/nativecode/NativeBlurFilter
+00100b09	BlurFilter_iterativeBoxBlur: Blur radius argument out of bounds
+00100b49	Rounding#toCircleFastWithOptionalBorder: Bitmap dimensions too large
+00100b8e	Rounding#toCircleWithOptionalBorder: Bitmap dimensions too large
+00100bcf	could not find RuntimeException class
+00100bf5	Rounding#toCircleWithOptionalBorder: Failed to get Bitmap info
+00100c34	Rounding#toCircleFastWithOptionalBorder: Unexpected bitmap format
+00100c76	(Landroid/graphics/Bitmap;IIZ)V
+00100c96	nativeToCircleFastFilter
+00100caf	BlurFilter_iterativeBoxBlur: Failed to lock Bitmap pixels
+00100ce9	BlurFilter_iterativeBoxBlur: Bitmap dimensions too large
+00100d22	BlurFilter_iterativeBoxBlur: Failed to allocate memory: tempRowOrColumn
+00100d6a	nativeToCircleFilter
+00100d7f	Rounding#addRoundedCorners: Bitmap dimensions too large
+00100db7	Circle radius too small!
+00100dd0	com/facebook/imagepipeline/nativecode/NativeRoundingFilter
+00100e0b	(Landroid/graphics/Bitmap;Z)V
+00100e29	Invalid circle center coordinates!
+00100e4c	nativeAddRoundedCornersFilter
+00100e6a	java/lang/RuntimeException
+00100e85	Rounding#toCircleFastWithOptionalBorder: Failed to lock Bitmap pixels
+00100ecb	nativeToCircleWithBorderFilter
+00100eea	Rounding#addRoundedCorners: Failed to lock Bitmap pixels
+00100f23	Circle must be fully visible!
+00100f41	BlurFilter_iterativeBoxBlur: Failed to allocate memory: div
+00100f7d	Rounding#toCircleWithOptionalBorder: Failed to unlock Bitmap pixels
+00100fc1	Rounding#toCircleFastWithOptionalBorder: Failed to get Bitmap info
+00101004	nativeIterativeBoxBlur
+0010101b	(Landroid/graphics/Bitmap;II)V
+0010103a	BlurFilter_iterativeBoxBlur: Failed to unlock Bitmap pixels
+00101076	Rounding#toCircleWithOptionalBorder: Failed to lock Bitmap pixels
+001010b8	Rounding#addRoundedCorners: Failed to unlock Bitmap pixels
+001010f3	(Landroid/graphics/Bitmap;IIII)V
+00101114	Invalid bitmap dimensions!
+00101339	zR
+.comment::00000000	
+.comment::00000001	Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+.comment::000000b9	Linker: LLD 18.0.2
+.shstrtab::00000001	.fini_array
+.shstrtab::0000000d	.text
+.shstrtab::00000013	.comment
+.shstrtab::0000001c	.note.android.ident
+.shstrtab::00000030	.got.plt
+.shstrtab::00000039	.rela.plt
+.shstrtab::00000043	.bss
+.shstrtab::00000048	.dynstr
+.shstrtab::00000050	.eh_frame_hdr
+.shstrtab::0000005e	.gnu.version_r
+.shstrtab::0000006d	.data.rel.ro
+.shstrtab::0000007a	.rela.dyn
+.shstrtab::00000084	.gnu.version
+.shstrtab::00000091	.dynsym
+.shstrtab::00000099	.gnu.hash
+.shstrtab::000000a3	.relro_padding
+.shstrtab::000000b2	.eh_frame
+.shstrtab::000000bc	.note.gnu.build-id
+.shstrtab::000000cf	.dynamic
+.shstrtab::000000d8	.shstrtab
+.shstrtab::000000e2	.rodata
+.shstrtab::000000ea	.data

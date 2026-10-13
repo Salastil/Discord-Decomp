@@ -1,0 +1,979 @@
+00103a9d	__cxa_finalize
+00103aac	__cxa_atexit
+00103ab9	JNI_OnLoad
+00103ac4	__android_log_print
+00103ad8	__stack_chk_fail
+00103ae9	setjmp
+00103af0	_ZdlPv
+00103af7	memset
+00103afe	longjmp
+00103b06	_Znwm
+00103b0c	memcpy
+00103b13	memmove
+00103b1b	_ZNSt6__ndk122__libcpp_verbose_abortEPKcz
+00103b45	exit
+00103b4a	__sF
+00103b4f	fprintf
+00103b57	__vsnprintf_chk
+00103b67	getenv
+00103b6e	strlen
+00103b75	strncpy
+00103b7d	__strlen_chk
+00103b8a	sscanf
+00103b91	malloc
+00103b98	free
+00103b9d	__emutls_get_address
+00103bb2	fopen
+00103bb8	fgets
+00103bbe	strchr
+00103bc5	feof
+00103bca	fclose
+00103bd1	strncmp
+00103bd9	strstr
+00103be0	__memcpy_chk
+00103bed	posix_memalign
+00103bfc	syslog
+00103c03	snprintf
+00103c0c	openlog
+00103c14	memchr
+00103c1b	fwrite
+00103c22	realloc
+00103c2a	pthread_getspecific
+00103c3e	pthread_rwlock_unlock
+00103c54	__system_property_get
+00103c6a	vfprintf
+00103c73	abort
+00103c79	closelog
+00103c82	getauxval
+00103c8c	strcmp
+00103c93	pthread_rwlock_rdlock
+00103ca9	pthread_key_delete
+00103cbc	pthread_setspecific
+00103cd0	syscall
+00103cd8	pthread_once
+00103ce5	vasprintf
+00103cef	pthread_mutex_lock
+00103d02	pthread_rwlock_wrlock
+00103d18	android_set_abort_message
+00103d32	pthread_mutex_unlock
+00103d47	getpid
+00103d4e	memcmp
+00103d55	pthread_key_create
+00103d68	__assert2
+00103d72	fflush
+00103d79	fputc
+00103d7f	_ZSt14set_unexpectedPFvvE
+00103d99	__cxa_unexpected_handler
+00103db2	_ZSt13set_terminatePFvvE
+00103dcb	__cxa_terminate_handler
+00103de3	_ZSt15set_new_handlerPFvvE
+00103dfe	__cxa_new_handler
+00103e10	__cxa_get_globals
+00103e22	__cxa_get_globals_fast
+00103e39	_ZSt14get_unexpectedv
+00103e4f	_ZSt9terminatev
+00103e5f	_ZSt10unexpectedv
+00103e71	_ZSt13get_terminatev
+00103e86	_ZSt15get_new_handlerv
+00103e9d	__cxa_pure_virtual
+00103eb0	__cxa_deleted_virtual
+00103ec6	_ZNSt9exceptionD2Ev
+00103eda	_ZNSt9exceptionD0Ev
+00103eee	_ZNSt9exceptionD1Ev
+00103f02	_ZNKSt9exception4whatEv
+00103f1a	_ZNSt13bad_exceptionD0Ev
+00103f33	_ZNSt13bad_exceptionD1Ev
+00103f4c	_ZNKSt13bad_exception4whatEv
+00103f69	_ZNSt9bad_allocC2Ev
+00103f7d	_ZTVSt9bad_alloc
+00103f8e	_ZNSt9bad_allocD0Ev
+00103fa2	_ZNSt9bad_allocD1Ev
+00103fb6	_ZNKSt9bad_alloc4whatEv
+00103fce	_ZNSt20bad_array_new_lengthC2Ev
+00103fee	_ZTVSt20bad_array_new_length
+0010400b	_ZNSt20bad_array_new_lengthD0Ev
+0010402b	_ZNSt20bad_array_new_lengthD1Ev
+0010404b	_ZNKSt20bad_array_new_length4whatEv
+0010406f	_ZTISt9bad_alloc
+00104080	_ZTISt20bad_array_new_length
+0010409d	_ZTVSt9exception
+001040ae	_ZTISt9exception
+001040bf	_ZTSSt9exception
+001040d0	_ZTVSt13bad_exception
+001040e6	_ZTISt13bad_exception
+001040fc	_ZTSSt13bad_exception
+00104112	_ZTSSt20bad_array_new_length
+0010412f	_ZTSSt9bad_alloc
+00104140	_ZNSt13bad_exceptionD2Ev
+00104159	_ZNSt9bad_allocC1Ev
+0010416d	_ZNSt9bad_allocD2Ev
+00104181	_ZNSt20bad_array_new_lengthC1Ev
+001041a1	_ZNSt20bad_array_new_lengthD2Ev
+001041c1	_ZNSt9type_infoD2Ev
+001041d5	_ZNSt9type_infoD0Ev
+001041e9	_ZNSt9type_infoD1Ev
+001041fd	_ZNSt8bad_castC2Ev
+00104210	_ZTVSt8bad_cast
+00104220	_ZNSt8bad_castD2Ev
+00104233	_ZNSt8bad_castD0Ev
+00104246	_ZNSt8bad_castD1Ev
+00104259	_ZNKSt8bad_cast4whatEv
+00104270	_ZNSt10bad_typeidC2Ev
+00104286	_ZTVSt10bad_typeid
+00104299	_ZNSt10bad_typeidD2Ev
+001042af	_ZNSt10bad_typeidD0Ev
+001042c5	_ZNSt10bad_typeidD1Ev
+001042db	_ZNKSt10bad_typeid4whatEv
+001042f5	_ZTISt8bad_cast
+00104305	_ZTISt10bad_typeid
+00104318	_ZTVSt9type_info
+00104329	_ZTISt9type_info
+0010433a	_ZTSSt9type_info
+0010434b	_ZTSSt8bad_cast
+0010435b	_ZTSSt10bad_typeid
+0010436e	_ZNSt8bad_castC1Ev
+00104381	_ZNSt10bad_typeidC1Ev
+00104397	_ZTIN10__cxxabiv116__shim_type_infoE
+001043bc	_ZTIN10__cxxabiv117__class_type_infoE
+001043e2	__dynamic_cast
+001043f1	_ZTIN10__cxxabiv117__pbase_type_infoE
+00104417	_ZTSDn
+0010441e	_ZTIN10__cxxabiv119__pointer_type_infoE
+00104446	_ZTSv
+0010444c	_ZTIN10__cxxabiv120__function_type_infoE
+00104475	_ZTIN10__cxxabiv129__pointer_to_member_type_infoE
+001044a7	_ZTSN10__cxxabiv116__shim_type_infoE
+001044cc	_ZTVN10__cxxabiv120__si_class_type_infoE
+001044f5	_ZTSN10__cxxabiv117__class_type_infoE
+0010451b	_ZTSN10__cxxabiv117__pbase_type_infoE
+00104541	_ZTSN10__cxxabiv119__pointer_type_infoE
+00104569	_ZTSN10__cxxabiv120__function_type_infoE
+00104592	_ZTSN10__cxxabiv129__pointer_to_member_type_infoE
+001045c4	_ZTVN10__cxxabiv116__shim_type_infoE
+001045e9	_ZTVN10__cxxabiv123__fundamental_type_infoE
+00104615	_ZTIN10__cxxabiv123__fundamental_type_infoE
+00104641	_ZTSN10__cxxabiv123__fundamental_type_infoE
+0010466d	_ZTIv
+00104673	_ZTSPv
+0010467a	_ZTIPv
+00104681	_ZTVN10__cxxabiv119__pointer_type_infoE
+001046a9	_ZTSPKv
+001046b1	_ZTIPKv
+001046b9	_ZTIDn
+001046c0	_ZTSPDn
+001046c8	_ZTIPDn
+001046d0	_ZTSPKDn
+001046d9	_ZTIPKDn
+001046e2	_ZTSb
+001046e8	_ZTIb
+001046ee	_ZTSPb
+001046f5	_ZTIPb
+001046fc	_ZTSPKb
+00104704	_ZTIPKb
+0010470c	_ZTSw
+00104712	_ZTIw
+00104718	_ZTSPw
+0010471f	_ZTIPw
+00104726	_ZTSPKw
+0010472e	_ZTIPKw
+00104736	_ZTSc
+0010473c	_ZTIc
+00104742	_ZTSPc
+00104749	_ZTIPc
+00104750	_ZTSPKc
+00104758	_ZTIPKc
+00104760	_ZTSh
+00104766	_ZTIh
+0010476c	_ZTSPh
+00104773	_ZTIPh
+0010477a	_ZTSPKh
+00104782	_ZTIPKh
+0010478a	_ZTSa
+00104790	_ZTIa
+00104796	_ZTSPa
+0010479d	_ZTIPa
+001047a4	_ZTSPKa
+001047ac	_ZTIPKa
+001047b4	_ZTSs
+001047ba	_ZTIs
+001047c0	_ZTSPs
+001047c7	_ZTIPs
+001047ce	_ZTSPKs
+001047d6	_ZTIPKs
+001047de	_ZTSt
+001047e4	_ZTIt
+001047ea	_ZTSPt
+001047f1	_ZTIPt
+001047f8	_ZTSPKt
+00104800	_ZTIPKt
+00104808	_ZTSi
+0010480e	_ZTIi
+00104814	_ZTSPi
+0010481b	_ZTIPi
+00104822	_ZTSPKi
+0010482a	_ZTIPKi
+00104832	_ZTSj
+00104838	_ZTIj
+0010483e	_ZTSPj
+00104845	_ZTIPj
+0010484c	_ZTSPKj
+00104854	_ZTIPKj
+0010485c	_ZTSl
+00104862	_ZTIl
+00104868	_ZTSPl
+0010486f	_ZTIPl
+00104876	_ZTSPKl
+0010487e	_ZTIPKl
+00104886	_ZTSm
+0010488c	_ZTIm
+00104892	_ZTSPm
+00104899	_ZTIPm
+001048a0	_ZTSPKm
+001048a8	_ZTIPKm
+001048b0	_ZTSx
+001048b6	_ZTIx
+001048bc	_ZTSPx
+001048c3	_ZTIPx
+001048ca	_ZTSPKx
+001048d2	_ZTIPKx
+001048da	_ZTSy
+001048e0	_ZTIy
+001048e6	_ZTSPy
+001048ed	_ZTIPy
+001048f4	_ZTSPKy
+001048fc	_ZTIPKy
+00104904	_ZTSn
+0010490a	_ZTIn
+00104910	_ZTSPn
+00104917	_ZTIPn
+0010491e	_ZTSPKn
+00104926	_ZTIPKn
+0010492e	_ZTSo
+00104934	_ZTIo
+0010493a	_ZTSPo
+00104941	_ZTIPo
+00104948	_ZTSPKo
+00104950	_ZTIPKo
+00104958	_ZTSDh
+0010495f	_ZTIDh
+00104966	_ZTSPDh
+0010496e	_ZTIPDh
+00104976	_ZTSPKDh
+0010497f	_ZTIPKDh
+00104988	_ZTSf
+0010498e	_ZTIf
+00104994	_ZTSPf
+0010499b	_ZTIPf
+001049a2	_ZTSPKf
+001049aa	_ZTIPKf
+001049b2	_ZTSd
+001049b8	_ZTId
+001049be	_ZTSPd
+001049c5	_ZTIPd
+001049cc	_ZTSPKd
+001049d4	_ZTIPKd
+001049dc	_ZTSe
+001049e2	_ZTIe
+001049e8	_ZTSPe
+001049ef	_ZTIPe
+001049f6	_ZTSPKe
+001049fe	_ZTIPKe
+00104a06	_ZTSg
+00104a0c	_ZTIg
+00104a12	_ZTSPg
+00104a19	_ZTIPg
+00104a20	_ZTSPKg
+00104a28	_ZTIPKg
+00104a30	_ZTSDu
+00104a37	_ZTIDu
+00104a3e	_ZTSPDu
+00104a46	_ZTIPDu
+00104a4e	_ZTSPKDu
+00104a57	_ZTIPKDu
+00104a60	_ZTSDs
+00104a67	_ZTIDs
+00104a6e	_ZTSPDs
+00104a76	_ZTIPDs
+00104a7e	_ZTSPKDs
+00104a87	_ZTIPKDs
+00104a90	_ZTSDi
+00104a97	_ZTIDi
+00104a9e	_ZTSPDi
+00104aa6	_ZTIPDi
+00104aae	_ZTSPKDi
+00104ab7	_ZTIPKDi
+00104ac0	_ZTVN10__cxxabiv117__array_type_infoE
+00104ae6	_ZTIN10__cxxabiv117__array_type_infoE
+00104b0c	_ZTSN10__cxxabiv117__array_type_infoE
+00104b32	_ZTVN10__cxxabiv120__function_type_infoE
+00104b5b	_ZTVN10__cxxabiv116__enum_type_infoE
+00104b80	_ZTIN10__cxxabiv116__enum_type_infoE
+00104ba5	_ZTSN10__cxxabiv116__enum_type_infoE
+00104bca	_ZTVN10__cxxabiv117__class_type_infoE
+00104bf0	_ZTIN10__cxxabiv120__si_class_type_infoE
+00104c19	_ZTSN10__cxxabiv120__si_class_type_infoE
+00104c42	_ZTVN10__cxxabiv121__vmi_class_type_infoE
+00104c6c	_ZTIN10__cxxabiv121__vmi_class_type_infoE
+00104c96	_ZTSN10__cxxabiv121__vmi_class_type_infoE
+00104cc0	_ZTVN10__cxxabiv117__pbase_type_infoE
+00104ce6	_ZTVN10__cxxabiv129__pointer_to_member_type_infoE
+00104d18	__cxa_demangle
+00104d27	__cxa_allocate_exception
+00104d40	__cxa_throw
+00104d4c	_ZnwmRKSt9nothrow_t
+00104d60	__cxa_begin_catch
+00104d72	__cxa_end_catch
+00104d82	_Znam
+00104d88	_ZnamRKSt9nothrow_t
+00104d9c	_ZdlPvRKSt9nothrow_t
+00104db1	_ZdlPvm
+00104db9	_ZdaPv
+00104dc0	_ZdaPvRKSt9nothrow_t
+00104dd5	_ZdaPvm
+00104ddd	_ZnwmSt11align_val_t
+00104df2	_ZnwmSt11align_val_tRKSt9nothrow_t
+00104e15	_ZnamSt11align_val_t
+00104e2a	_ZnamSt11align_val_tRKSt9nothrow_t
+00104e4d	_ZdlPvSt11align_val_t
+00104e63	_ZdlPvSt11align_val_tRKSt9nothrow_t
+00104e87	_ZdlPvmSt11align_val_t
+00104e9e	_ZdaPvSt11align_val_t
+00104eb4	_ZdaPvSt11align_val_tRKSt9nothrow_t
+00104ed8	_ZdaPvmSt11align_val_t
+00104eef	__gxx_personality_v0
+00104f04	__cxa_free_exception
+00104f19	__cxa_allocate_dependent_exception
+00104f3c	__cxa_free_dependent_exception
+00104f5b	__cxa_get_exception_ptr
+00104f73	__cxa_decrement_exception_refcount
+00104f96	__cxa_current_exception_type
+00104fb3	__cxa_rethrow
+00104fc1	__cxa_increment_exception_refcount
+00104fe4	__cxa_current_primary_exception
+00105004	__cxa_rethrow_primary_exception
+00105024	__cxa_uncaught_exception
+0010503d	__cxa_uncaught_exceptions
+00105057	__cxa_call_unexpected
+0010506d	dl_iterate_phdr
+0010507d	libc.so
+00105085	LIBC
+0010508a	libdl.so
+00105093	liblog.so
+0010509d	libm.so
+001050a5	libnative-imagetranscoder.so
+00110750	([B)I
+00110756	Wrong JPEG library version: library is %d, caller expects %d
+00110793	Invalid progressive parameters Ss=%d Se=%d Ah=%d Al=%d
+001107ca	JSIMD_FASTST3
+001107d8	false
+001107de	VTT for 
+001107e7	operator+=
+001107f2	wchar_t
+001107fa	unsigned short
+00110809	unsigned long long
+0011081c	 decltype(auto)
+0011082c	Pure virtual function called!
+0011084a	(base != 0) && "DW_EH_PE_datarel is invalid with a base of 0"
+0011088c	libjpeg-turbo version 2.1.5.1 (build 20240418)
+001108bb	Bogus DQT index %d
+001108ce	Cannot transcode due to multiple use of quantization table %d
+0011090c	Cannot quantize to fewer than %d colors
+00110934	JFIF extension marker: palette thumbnail image, length %u
+0011096e	JSIMD_FORCENONE
+0011097e	CPU part
+00110987	%s:%d: %s
+00110996	__float128
+001109a1	decltype(auto)
+001109b0	 imaginary
+001109bb	libunwind: %s - %s\n
+001109cf	DW_EH_PE_funcrel pointer encoding not supported
+00110a07	Bogus DAC value 0x%x
+00110a1c	        %4u %4u %4u %4u %4u %4u %4u %4u
+00110a44	Start Of Frame 0x%02x: width=%u, height=%u, components=%d
+00110a7e	Warning: unknown JFIF revision number %d.%02d
+00110ab1	typename 
+00110abb	getSavedFloatRegister
+00110ad5	java/io/OutputStream
+00110aea	Failed to allocate memory for libjpeg output buffer.
+00110b1f	Read from EMS failed
+00110b34	Cannot quantize more than %d color components
+00110b62	Cannot quantize to more than %d colors
+00110b89	Define Huffman Table 0x%02x
+00110ba5	Quantizing to %d = %d*%d*%d colors
+00110bc8	At marker 0x%02x, recovery action %d
+00110bed	Smoothing not supported with nonstandard sampling ratios
+00110c26	JSIMD_FASTLD3
+00110c34	unexpected_handler unexpectedly returned
+00110c60	operator=
+00110c6a	operator,
+00110c74	operator>=
+00110c7f	__int128
+00110c88	libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big\n
+00110ccf	could not register JpegTranscoder methods
+00110cf9	Suspension not allowed here
+00110d15	Bogus DHT index %d
+00110d28	Invalid JPEG file structure: two SOI markers
+00110d55	    with %d x %d thumbnail image
+00110d76	Inconsistent progression sequence for component %d coefficient %d
+00110db8	operator.*
+00110dc3	sizeof 
+00110dcb	 [enable_if:
+00110dd8	std::bad_cast
+00110de6	std::exception
+00110df5	libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range\n\n
+00110e5b	CIE version is not 1 or 3
+00110e75	([B)V
+00110e7b	wrong exif orientation
+00110e92	Insufficient memory (case %d)
+00110eb0	Premature end of JPEG file
+00110ecf	/proc/cpuinfo
+00110edd	operator&
+00110ee7	operator<<
+00110ef2	operator|
+00110efc	operator>>
+00110f07	yptnk
+00110f0d	::friend 
+00110f17	char8_t
+00110f1f	std::nullptr_t
+00110f2e	bad_array_new_length
+00110f43	_Unwind_Resume() can't return
+00110f61	libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big\n
+00110fa3	Can't binary search on variable length encoded data.
+00110fe0	write
+00110fe6	wrong rotation angle
+00110ffb	nativeTranscodeJpeg
+0011100f	Requested feature was omitted at compile time
+0011103d	Seek failed on temporary file
+0011105b	Start of Image
+0011106a	operator==
+00111075	operator++
+00111080	static_cast
+00111091	ro.arch
+00111099	getULEB128
+001110aa	could not find RuntimeException class
+001110d0	Failed to allocate memory for java byte buffer.
+00111100	DCT coefficient out of range
+0011111d	Unsupported JPEG data precision %d
+00111140	JSIMD_NOHUFFENC
+00111150	libc++
+0011115b	long double
+00111167	 complex
+00111170	unsigned 
+0011117a	actions & (_UA_SEARCH_PHASE | _UA_FORCE_UNWIND)
+001111aa	libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big\n
+001111f4	FDE has zero length
+00111208	java/io/InputStream
+0011121c	Failed to allocate memory for byte buffer.
+00111247	Unsupported color conversion request
+0011126c	Output file write error --- out of disk space?
+0011129b	Freed EMS handle %u
+001112af	terminate_handler unexpectedly returned
+001112d7	non-virtual thunk to 
+001112ed	Invalid access!
+001112fd	operator&&
+00111308	dynamic_cast
+00111315	Popping empty vector!
+0011132b	noexcept
+00111334	void __cxxabiv1::scan_eh_tab(scan_results &, _Unwind_Action, bool, _Unwind_Exception *, _Unwind_Context *)
+0011139f	truncated uleb128 expression
+001113bc	libunwind: unsupported .eh_frame_hdr version: %u at %lx\n
+00111405	wrong scale denominator
+0011141d	length_error was thrown in -fno-exceptions mode with message "%s"
+0011145f	Bogus virtual array access
+0011147a	Not a JPEG file: starts with 0x%02x 0x%02x
+001114a5	uncaught
+001114ae	typeinfo name for 
+001114c1	operator co_await
+001114d3	reinterpret_cast
+001114e9	exynos9810
+001114f4	unsupported arm64 register
+0011150f	unsupported restore location for register
+00111539	getTableEntrySize
+00111550	(Ljava/io/InputStream;Ljava/io/OutputStream;III)V
+00111582	Missing Huffman code table entry
+001115a3	Empty input file
+001115b4	Scan script does not transmit all data
+001115db	End Of Image
+001115e8	RST%d
+001115ee	    Component %d: dc=%d ac=%d
+0011160c	Corrupt JPEG data: %u extraneous bytes before marker 0x%02x
+00111648	operator&=
+00111653	operator[]
+0011165e	operator<
+00111668	operator new[]
+00111677	operator|=
+00111686	decimal128
+00111691	union
+00111697	std::bad_alloc
+001116a6	truncated sleb128 expression
+001116c3	DW_OP_piece not implemented
+001116e9	Component index %d: mismatching sampling ratio %d:%d, %d:%d, %c
+00111729	Too many color components: %d, max %d
+0011174f	Bogus DAC index %d
+00111762	        %3d %3d %3d %3d %3d %3d %3d %3d
+0011178a	JFIF extension marker: type 0x%02x, length %u
+001117b8	Corrupt JPEG data: premature end of data segment
+001117e9	0xd03
+001117ef	terminating due to %s exception of type %s
+0011181d	operator delete[]
+00111834	sizeof...
+0011183e	out/llvm-project/libcxxabi/src/demangle/Utility.h
+00111870	evaluateExpression
+00111886	Unknown Adobe color transform code %d
+001118ac	sizeof... 
+001118b7	const_cast
+001118c2	operator~
+001118cc	operator>>=
+001118d8	short
+001118de	unsigned __int128
+001118f0	unwind_phase2
+001118fe	malformed uleb128 expression
+0011191b	unsupported restore location for float register
+00111952	failed to register InputStream.read
+0011197b	([BII)V
+00111983	Could not register JpegTranscoder methods
+001119ad	could not find NativeJpegTranscoder class
+001119da	decltype
+001119e3	operator.
+001119ed	operator-
+001119f7	operator name does not start with 'operator'
+00111a24	double
+00111a2b	std::bad_exception
+00111a3e	libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big\n
+00111a7f	DW_EH_PE_aligned pointer encoding not supported
+00111aaf	getSavedRegister
+00111ac9	failed to register InputStream.skip
+00111aed	quality should not be greater than 100
+00111b14	Failed to allocate memory for read buffer
+00111b3e	Invalid component ID %d in SOS
+00111b5d	Write to EMS failed
+00111b71	Huffman table 0x%02x was not defined
+00111b96	Invalid JPEG file structure: two SOF markers
+00111bc3	8d  15-Jan-2012
+00111bd3	Define Arithmetic Table 0x%02x: 0x%02x
+00111bff	initializer for module 
+00111c17	(anonymous namespace)
+00111c2d	operator<=>
+00111c3d	getRegister
+00111c51	FDE is really a CIE
+00111c65	Bogus input colorspace
+00111c7c	CCIR601 sampling not implemented yet
+00111ca1	Arithmetic table 0x%02x was not defined
+00111cc9	Copyright (C) @COPYRIGHT_YEAR@ The libjpeg-turbo Project and many others
+00111d12	Unexpected marker 0x%02x
+00111d2b	Selected %d colors for quantization
+00111d4f	Closed temporary file %s
+00111d68	terminating due to %s foreign exception
+00111d90	thread-local initialization routine for 
+00111db9	guard variable for 
+00111dcd	alignof 
+00111dd6	operator*
+00111de0	unsigned char
+00111dee	> typename 
+00111dfa	quality should not be lower than 1
+00111e1d	Bogus marker length
+00111e31	Empty JPEG image (DNL not supported)
+00111e56	Read from XMS failed
+00111e6b	terminate_handler unexpectedly threw an exception
+00111e9d	unexpected
+00111ea8	vtable for 
+00111eb7	operator*=
+00111ec7	 noexcept
+00111ed1	string literal
+00111ee4	char32_t
+00111eed	actions & _UA_SEARCH_PHASE
+00111f08	libunwind: malformed DW_CFA_expression DWARF unwind, reg too big\n
+00111f4e	Improper call to JPEG library in state %d
+00111f78	Requested features are incompatible
+00111f9c	Unsupported JPEG process: SOF type 0x%02x
+00111fc6	Invalid JPEG file structure: SOS before SOF
+00111ff2	JFIF extension marker: JPEG-compressed thumbnail image, length %u
+00112034	Corrupt JPEG data: bad arithmetic code
+0011205b	%ld%c
+00112061	out/llvm-project/libcxxabi/src/demangle/ItaniumDemangle.h
+0011209b	typeinfo for 
+001120a9	shrinkToSize() can't expand!
+001120c6	_Unwind_Reason_Code __cxxabiv1::__gxx_personality_v0(int, _Unwind_Action, uint64_t, _Unwind_Exception *, _Unwind_Context *)
+00112142	actions & _UA_CLEANUP_PHASE
+0011215e	libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big\n
+001121af	java/lang/RuntimeException
+001121ca	com/facebook/imagepipeline/nativecode/NativeJpegTranscoder
+00112205	Huffman code size table overflow
+00112226	Failed to create temporary file %s
+00112249	Unknown APP0 marker (not JFIF), length %u
+00112273	Obtained EMS handle %u
+0011228a	Corrupt JPEG data: found marker 0x%02x instead of RST%d
+001122c2	Invalid SOS parameters for sequential JPEG
+001122ed	Application transferred too many scanlines
+0011231b	operator<=
+0011232b	out/llvm-project/libcxxabi/src/fallback_malloc.cpp
+0011235e	unknown pointer encoding
+00112377	getSLEB128
+00112382	DW_OP_deref_size with bad size
+001123a5	could not find OutputStream
+001123c1	failed to register OutputStream.write
+001123e7	Invalid memory pool code %d
+00112403	Write to XMS failed
+00112417	Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
+00112459	Opened temporary file %s
+00112472	operator--
+0011247d	<char, std::char_traits<char>
+0011249b	uintptr_t __cxxabiv1::readEncodedPointer(const uint8_t **, uint8_t, uintptr_t)
+001124ea	during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+0011254d	libunwind: unsupported .eh_frame_hdr at %lx: need at least 4 bytes of data but only got %zd\n
+001125b5	Define Restart Interval %u
+001125d0	    Component %d: %dhx%dv q=%d
+001125ef	  Ss=%d, Se=%d, Ah=%d, Al=%d
+0011260c	Unrecognized component IDs %d %d %d, assuming YCbCr
+00112644	decimal32
+0011264e	Deleted virtual function called!
+0011266f	setRegister
+0011267f	Read failed on temporary file
+0011269d	Write failed on temporary file --- out of disk space?
+001126d3	Virtual array controller messed up
+001126f6	Freed XMS handle %u
+0011270a	thread-local wrapper routine for 
+0011272c	operator()
+00112737	libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big\n
+0011277f	DW_EH_PE_textrel pointer encoding not supported
+001127af	DWARF opcode not implemented
+001127d7	nativeTranscodeJpegWithExifOrientation
+001127fe	Bogus buffer control mode
+00112818	Input file read error
+0011282e	JPEG datastream contains no image
+00112850	Caution: quantization tables are too coarse for baseline JPEG
+0011288e	JFIF APP0 marker: version %d.%02d, density %dx%d  %d
+001128c3	Miscellaneous marker 0x%02x, length %u
+001128ec	0x0a1
+001128f2	noexcept 
+001128fc	operator delete
+0011290c	 at offset 
+00112918	allocator
+00112922	unsigned int
+0011292f	actions & (_UA_SEARCH_PHASE | _UA_HANDLER_FRAME | _UA_FORCE_UNWIND)
+00112973	libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big\n
+001129d2	no transformation to perform
+001129ef	vector
+001129f6	Bogus JPEG colorspace
+00112a0c	Buffer passed to JPEG library is too small
+00112a37	Fractional sampling not implemented yet
+00112a5f	Maximum supported image dimension is %u pixels
+00112a8e	Premature end of input file
+00112aaa	Quantization table 0x%02x was not defined
+00112ad4	Image too wide for this implementation
+00112afb	0xd07
+00112b09	'block-literal'
+00112b19	basic_iostream
+00112b32	unknown register
+00112b43	Invalid scan script at entry %d
+00112b63	Application transferred too few scanlines
+00112b8d	Start Of Scan: %d components
+00112baa	Corrupt JPEG data: bad Huffman code
+00112bce	JSIMD_FORCENEON
+00112bde	terminating due to %s exception of type %s: %s
+00112c12	invocation function for block in 
+00112c34	covariant return thunk to 
+00112c52	operator%
+00112c5c	signed char
+00112c68	long long
+00112c72	decimal64
+00112c81	DW_EH_PE_datarel is invalid with a datarelBase of 0
+00112cb5	Unknown DWARF encoding for search table.
+00112ce2	Invalid crop request
+00112cf7	Invalid color quantization mode change
+00112d1e	Unsupported marker type 0x%02x
+00112d3d	Quantizing to %d colors
+00112d55	template parameter object for 
+00112d74	construction vtable for 
+00112d8d	operator/=
+00112d98	operator!
+00112da2	operator->*
+00112dae	, std::allocator<char>
+00112dc5	basic_string
+00112dd2	libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big\n
+00112e26	could not find InputStream
+00112e41	JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
+00112e8e	Didn't expect more than one scan
+00112eb2	throw
+00112ebb	operator
+00112ec4	operator/
+00112ece	operator?
+00112ed8	nullptr
+00112ee0	 typename 
+00112eeb	operator"" 
+00112ef7	float
+00112efd	out/llvm-project/libcxxabi/src/cxa_personality.cpp
+00112f30	libunwind: malformed DW_CFA_register DWARF unwind, reg too big\n
+00112f70	libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big\n
+00112fbc	Bogus message code %d
+00112fd2	ALIGN_TYPE is wrong, please fix
+00112ff2	Sampling factors too large for interleaved scan
+00113022	Bogus sampling factors
+00113039	operator<<=
+00113045	operator%=
+00113050	operator 
+0011305a	basic_ostream
+00113068	 volatile
+00113078	_Unwind_Resume
+00113087	libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big\n
+001130cb	CIE ID is not zero
+001130de	IDCT output block size %d not supported
+00113106	Backing store not supported
+00113122	Unknown APP14 marker (not Adobe), length %u
+0011314e	operator^
+00113158	operator!=
+00113166	 restrict
+00113175	unsigned long
+00113183	std::bad_typeid
+00113193	CIE start does not match
+001131ac	scale numerator cannot be lower than 1
+001131d3	MAX_ALLOC_CHUNK is wrong, please fix
+001131f8	JFIF extension marker: RGB thumbnail image, length %u
+0011322e	libc++abi
+00113238	operator>
+00113242	template<
+0011324c	basic_istream
+0011325a	pixel vector[
+00113275	scale numerator cannot be greater than 16
+0011329f	Bogus Huffman table definition
+001132be	Invalid progressive parameters at scan script entry %d
+001132f5	Define Quantization Table %d  precision %d
+00113320	Corrupt JPEG data: bad ICC marker
+00113342	libc++abi: 
+0011334e	virtual thunk to 
+00113360	operator new
+0011336d	operator||
+00113378	operator+
+00113382	typeid 
+0011338c	 requires 
+0011339c	char16_t
+001133a5	results.reason == _URC_HANDLER_FOUND
+001133ca	libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big\n
+0011340f	getEncodedP
+0011341b	DW_OP_fbreg not implemented
+00113443	libnative-imagetranscoder
+0011345d	Invalid JPEG file structure: missing SOS marker
+0011348d	Warning: thumbnail image size does not match data length %u
+001134c9	Obtained XMS handle %u
+001134e0	JPEGMEM
+001134e8	terminating
+001134f4	out/llvm-project/libcxxabi/src/cxa_demangle.cpp
+00113524	reference temporary for 
+0011353d	operator^=
+00113548	operator-=
+00113553	operator->
+0011355e	struct
+00113565	libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big\n
+001139e0	0123456789:;<=>?`abcdefghijklmno
+00115176	N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+001151a6	N12_GLOBAL__N_116itanium_demangle4NodeE
+001151ce	N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+00115208	N12_GLOBAL__N_116itanium_demangle8NameTypeE
+00115234	N12_GLOBAL__N_116itanium_demangle10ModuleNameE
+00115263	N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+001152a0	N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+001152cf	N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+001152fe	N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+0011532e	N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+00115365	N12_GLOBAL__N_116itanium_demangle10MemberExprE
+00115394	N12_GLOBAL__N_116itanium_demangle7NewExprE
+001153bf	N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+001153ee	N12_GLOBAL__N_116itanium_demangle8CallExprE
+0011541a	N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+0011544d	N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+00115481	N12_GLOBAL__N_116itanium_demangle8CastExprE
+001154ad	N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+001154df	N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+00115512	N12_GLOBAL__N_116itanium_demangle8BoolExprE
+0011553e	N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+00115576	N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+001155ae	N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+001155e6	N12_GLOBAL__N_116itanium_demangle13StringLiteralE
+00115618	N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+0011564c	N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE
+0011568b	N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE
+001156c5	N12_GLOBAL__N_116itanium_demangle32ConstrainedTypeTemplateParamDeclE
+0011570a	N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE
+00115747	N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE
+00115785	N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE
+001157bf	N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+001157f3	N12_GLOBAL__N_116itanium_demangle10LambdaExprE
+00115822	N12_GLOBAL__N_116itanium_demangle11EnumLiteralE
+00115852	N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+00115884	N12_GLOBAL__N_116itanium_demangle8FoldExprE
+001158b0	N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+001158eb	N12_GLOBAL__N_116itanium_demangle10BracedExprE
+0011591a	N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+0011594e	N12_GLOBAL__N_116itanium_demangle12InitListExprE
+0011597f	N12_GLOBAL__N_116itanium_demangle29PointerToMemberConversionExprE
+001159c1	N12_GLOBAL__N_116itanium_demangle15ExprRequirementE
+001159f5	N12_GLOBAL__N_116itanium_demangle15TypeRequirementE
+00115a29	N12_GLOBAL__N_116itanium_demangle17NestedRequirementE
+00115a5f	N12_GLOBAL__N_116itanium_demangle12RequiresExprE
+00115a90	N12_GLOBAL__N_116itanium_demangle13SubobjectExprE
+00115ac2	N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+00115afa	N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+00115b2c	N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+00115b59	N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+00115b8b	N12_GLOBAL__N_116itanium_demangle8DtorNameE
+00115bb7	N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+00115bf2	N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+00115c26	N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+00115c5e	N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+00115c96	N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+00115cd6	N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+00115d05	N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+00115d3f	N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+00115d70	N12_GLOBAL__N_116itanium_demangle12ModuleEntityE
+00115da1	N12_GLOBAL__N_116itanium_demangle20MemberLikeFriendNameE
+00115dda	N12_GLOBAL__N_116itanium_demangle10NestedNameE
+00115e09	N12_GLOBAL__N_116itanium_demangle9LocalNameE
+00115e36	N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+00115e68	N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+00115e99	N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+00115ed2	N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+00115f0b	N12_GLOBAL__N_116itanium_demangle25TemplateParamQualifiedArgE
+00115f49	N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+00115f7a	N12_GLOBAL__N_116itanium_demangle23ExplicitObjectParameterE
+00115fb6	N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+00115feb	N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+00116018	N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+00116049	N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+00116082	N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+001160b3	N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+001160e5	N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+0011611b	N12_GLOBAL__N_116itanium_demangle8QualTypeE
+00116147	N12_GLOBAL__N_116itanium_demangle15TransformedTypeE
+0011617b	N12_GLOBAL__N_116itanium_demangle12BinaryFPTypeE
+001161ac	N12_GLOBAL__N_116itanium_demangle10BitIntTypeE
+001161db	N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+00116214	N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+00116248	N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+00116277	N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+001162a4	N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+001162dc	N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+00116317	N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+00116347	N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+001163c8	N10__cxxabiv116__shim_type_infoE
+001163e9	N10__cxxabiv117__class_type_infoE
+0011640b	N10__cxxabiv117__pbase_type_infoE
+0011642d	N10__cxxabiv119__pointer_type_infoE
+00116451	N10__cxxabiv120__function_type_infoE
+00116476	N10__cxxabiv129__pointer_to_member_type_infoE
+001164c0	N10__cxxabiv123__fundamental_type_infoE
+001164e8	v
+001164ea	Pv
+001164ed	PKv
+001164f1	Dn
+001164f4	PDn
+001164f8	PKDn
+001164fd	b
+001164ff	Pb
+00116502	PKb
+00116506	w
+00116508	Pw
+0011650b	PKw
+0011650f	c
+00116511	Pc
+00116514	PKc
+00116518	h
+0011651a	Ph
+0011651d	PKh
+00116521	a
+00116523	Pa
+00116526	PKa
+0011652a	s
+0011652c	Ps
+0011652f	PKs
+00116533	t
+00116535	Pt
+00116538	PKt
+0011653c	i
+0011653e	Pi
+00116541	PKi
+00116545	j
+00116547	Pj
+0011654a	PKj
+0011654e	l
+00116550	Pl
+00116553	PKl
+00116557	m
+00116559	Pm
+0011655c	PKm
+00116560	x
+00116562	Px
+00116565	PKx
+00116569	y
+0011656b	Py
+0011656e	PKy
+00116572	n
+00116574	Pn
+00116577	PKn
+0011657b	o
+0011657d	Po
+00116580	PKo
+00116584	Dh
+00116587	PDh
+0011658b	PKDh
+00116590	f
+00116592	Pf
+00116595	PKf
+00116599	d
+0011659b	Pd
+0011659e	PKd
+001165a2	e
+001165a4	Pe
+001165a7	PKe
+001165ab	g
+001165ad	Pg
+001165b0	PKg
+001165b4	Du
+001165b7	PDu
+001165bb	PKDu
+001165c0	Ds
+001165c3	PDs
+001165c7	PKDs
+001165cc	Di
+001165cf	PDi
+001165d3	PKDi
+001165d8	N10__cxxabiv117__array_type_infoE
+001165fa	N10__cxxabiv116__enum_type_infoE
+0011661b	N10__cxxabiv120__si_class_type_infoE
+00116640	N10__cxxabiv121__vmi_class_type_infoE
+00116666	St9type_info
+00116673	St8bad_cast
+0011667f	St10bad_typeid
+0011668e	St9exception
+0011669b	St13bad_exception
+001166ad	St20bad_array_new_length
+001166c6	St9bad_alloc
+00118f29	zR
+001239e1	zPLR
+.comment::00000000	
+.comment::00000001	Android (12285214, +pgo, +bolt, +lto, +mlgo, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+.comment::000000b9	Linker: LLD 18.0.2
+.shstrtab::00000001	.init_array
+.shstrtab::0000000d	.fini_array
+.shstrtab::00000019	.text
+.shstrtab::0000001f	.got
+.shstrtab::00000024	.comment
+.shstrtab::0000002d	.note.android.ident
+.shstrtab::00000041	.got.plt
+.shstrtab::0000004a	.rela.plt
+.shstrtab::00000054	.bss
+.shstrtab::00000059	.dynstr
+.shstrtab::00000061	.eh_frame_hdr
+.shstrtab::0000006f	.gnu.version_r
+.shstrtab::0000007e	.data.rel.ro
+.shstrtab::0000008b	.rela.dyn
+.shstrtab::00000095	.gnu.version
+.shstrtab::000000a2	.dynsym
+.shstrtab::000000aa	.gnu.hash
+.shstrtab::000000b4	.relro_padding
+.shstrtab::000000c3	.eh_frame
+.shstrtab::000000cd	.gcc_except_table
+.shstrtab::000000df	.note.gnu.build-id
+.shstrtab::000000f2	.dynamic
+.shstrtab::000000fb	.shstrtab
+.shstrtab::00000105	.rodata
+.shstrtab::0000010d	.data
