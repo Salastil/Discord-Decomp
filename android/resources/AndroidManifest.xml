@@ -1,0 +1,1270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="348010"
+    android:versionName="348.10 - Stable"
+    android:compileSdkVersion="36"
+    android:compileSdkVersionCodename="16"
+    android:requiredSplitTypes="base__abi,base__density"
+    android:splitTypes=""
+    package="com.discord"
+    platformBuildVersionCode="36"
+    platformBuildVersionName="16">
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="36"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.faketouch"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="mailto"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="sms"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.APP_CONTACTS"/>
+        </intent>
+        <package android:name="com.facebook.orca"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="org.telegram.messenger"/>
+        <package android:name="com.twitter.android"/>
+        <package android:name="jp.naver.line.android"/>
+        <package android:name="com.spotify.music"/>
+        <package android:name="com.instagram.android"/>
+        <package android:name="tv.twitch.android.app"/>
+        <package android:name="com.zhiliaoapp.musically"/>
+        <package android:name="com.snapchat.android"/>
+        <package android:name="com.mojang.minecraftpe"/>
+        <package android:name="com.epicgames.fortnite"/>
+        <package android:name="com.miHoYo.GenshinImpact"/>
+        <package android:name="com.tencent.ig"/>
+        <package android:name="com.activision.callofduty.shooter"/>
+        <package android:name="com.supercell.clashofclans"/>
+        <package android:name="com.mobile.legends.usa"/>
+        <package android:name="com.dts.freefireth"/>
+        <package android:name="com.nianticlabs.pokemongo"/>
+        <package android:name="jp.pokemon.pokemontcgp"/>
+        <package android:name="com.supercell.clashroyale"/>
+        <package android:name="com.innersloth.spacemafia"/>
+        <package android:name="com.scopely.monopolygo"/>
+        <package android:name="com.supercell.brawlstars"/>
+        <package android:name="air.com.ubisoft.brawl.halla.platform.fighting.action.pvp"/>
+        <package android:name="com.kurogame.wutheringwaves.global"/>
+        <package android:name="com.discord"/>
+        <package android:name="com.discord.buildOverride"/>
+        <package android:name="com.discord.debug"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="instagram"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="notion"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="snapchat"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="spotify"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="tiktok"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="twitch"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="twitter"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="vnd.youtube"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="xbox"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="roblox"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE"/>
+        </intent>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.referrer.INSTALL_PROVIDER"/>
+        </intent>
+        <package android:name="com.facebook.katana"/>
+        <package android:name="com.facebook.lite"/>
+        <package android:name="com.samsung.android.mapsagent"/>
+    </queries>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="com.samsung.android.mapsagent.permission.READ_APP_INFO"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission
+        android:name="com.discord.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <uses-permission android:name="com.discord.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application
+        android:theme="@style/AppTheme"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_logo_square"
+        android:name="com.discord.MainApplication"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:supportsRtl="false"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/data_extraction_rules_legacy"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:appCategory="social"
+        android:appComponentFactory="com.discord.TTIComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules">
+        <property
+            android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY"
+            android:value="true"/>
+        <meta-data
+            android:name="libdiscord_version"
+            android:value="90.0.35-krisp_v9"/>
+        <meta-data
+            android:name="com.discord.features.FLAG"
+            android:value="1"/>
+        <meta-data
+            android:name="com.google.android.gms.car.application"
+            android:resource="@xml/automotive_app_desc"/>
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements"/>
+        <meta-data
+            android:name="android.telephony.PROPERTY_SATELLITE_DATA_OPTIMIZED"
+            android:value="com.discord"/>
+        <activity
+            android:name="com.discord.share.ShareActivity"
+            android:exported="true"
+            android:taskAffinity="com.discord.share"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:configChanges="screenSize|uiMode|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize">
+            <layout
+                android:defaultWidth="1080dp"
+                android:defaultHeight="720dp"/>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value="androidx.sharetarget.ChooserTargetServiceCompat"/>
+        </activity>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.discord.file-provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <activity
+            android:label="@string/app_name"
+            android:name="com.discord.main.MainActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="adjustResize"
+            android:supportsPictureInPicture="true">
+            <layout
+                android:defaultWidth="1080dp"
+                android:defaultHeight="720dp"/>
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/app"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/app"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/gifts/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/gifts/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/invite/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/invite/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/template/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/template/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/channels/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/channels/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/users/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/users/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/feature/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/feature/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/query/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/query/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/ra/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/events/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/events/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/connections/.*/link"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/quests/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/quest-preview/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/quest-home"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/quest-bar-preview"/>
+                <data
+                    android:scheme="https"
+                    android:host="l.discord.com"
+                    android:pathPattern="/a/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/__development/link"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/mweb-handoff"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/activate"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPrefix="/activities"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPrefix="/activities"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPrefix="/shop"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPrefix="/shop"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/login/one-time"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/login/one-time"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="discord"
+                    android:host="app"
+                    android:pathPattern="/.*"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.gift"
+                    android:pathPattern="/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.gg"
+                    android:pathPattern="/.*"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.new"
+                    android:pathPattern="/.*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="discord"
+                    android:host="action"
+                    android:pathPattern="/oauth2/authorize"/>
+                <data
+                    android:scheme="discord"
+                    android:host="action"
+                    android:pathPattern="/connect/authorize"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="discord.com"
+                    android:pathPattern="/connect/authorize"/>
+                <data
+                    android:scheme="https"
+                    android:host="*.discord.com"
+                    android:pathPattern="/connect/authorize"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="discordapp.onelink.me"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.discord.intent.action.SDK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data
+                    android:scheme="discord"
+                    android:host="sdk"
+                    android:pathPattern="/.*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.discord.intent.action.CONNECT"/>
+                <data
+                    android:scheme="discord"
+                    android:host="app"
+                    android:pathPattern="/connect/.*"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity-alias
+            android:name="com.discord.main.MainDefault"
+            android:enabled="true"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/brand_inverted"
+            android:name="com.discord.main.MainBrandInverted"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/brand_inverted_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/matte_dark"
+            android:name="com.discord.main.MainMatteDark"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/matte_dark_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/matte_light"
+            android:name="com.discord.main.MainMatteLight"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/matte_light_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/brand_dark"
+            android:name="com.discord.main.MainBrandDark"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/brand_dark_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/pastel"
+            android:name="com.discord.main.MainPastel"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/pastel_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/pirate"
+            android:name="com.discord.main.MainPirate"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/pirate_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/camo"
+            android:name="com.discord.main.MainCamo"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/camo_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/sunset"
+            android:name="com.discord.main.MainSunset"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/sunset_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/galaxy"
+            android:name="com.discord.main.MainGalaxy"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/galaxy_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/y2k"
+            android:name="com.discord.main.MainY2K"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/y2k_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/cherry_blossom"
+            android:name="com.discord.main.MainCherryBlossom"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/cherry_blossom_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/beanie"
+            android:name="com.discord.main.MainBeanie"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/beanie_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/gaming"
+            android:name="com.discord.main.MainGaming"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/gaming_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/circuit"
+            android:name="com.discord.main.MainCircuit"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/circuit_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/holowaves"
+            android:name="com.discord.main.MainHoloWaves"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/holowaves_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/blush"
+            android:name="com.discord.main.MainBlush"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/blush_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/angry"
+            android:name="com.discord.main.MainAngry"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/angry_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/manga"
+            android:name="com.discord.main.MainManga"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/manga_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/controller"
+            android:name="com.discord.main.MainController"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/controller_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/mushroom"
+            android:name="com.discord.main.MainMushroom"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/mushroom_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.discord.main.MainZombie"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.discord.main.MainClydeStein"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.discord.main.MainSlimy"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.discord.main.MainDrip"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/blurple_twilight"
+            android:name="com.discord.main.MainBlurpleTwilight"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/blurple_twilight_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/in_rainbows"
+            android:name="com.discord.main.MainInRainbows"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/in_rainbows_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/midnight_prism"
+            android:name="com.discord.main.MainMidnightPrism"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/midnight_prism_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@mipmap/color_wave"
+            android:name="com.discord.main.MainColorWave"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity"
+            android:roundIcon="@mipmap/color_wave_round">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.discord.main.MainTreat"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.discord.main.MainTrick"
+            android:enabled="false"
+            android:exported="true"
+            android:targetActivity="com.discord.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <service
+            android:name="com.discord.foreground_service.ForegroundService"
+            android:foregroundServiceType="microphone|camera|mediaProjection|dataSync"/>
+        <service
+            android:name="com.discord.notifications.service.NotificationService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/CallTheme"
+            android:name="com.discord.notifications.renderer.IncomingCallActivity"
+            android:exported="true"
+            android:taskAffinity=""
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize"
+            android:showOnLockScreen="true"/>
+        <receiver
+            android:name="com.discord.notifications.actions.NotificationActions"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.discord.intent.action.NOTIFICATION_ACTION"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.discord.telecom.service.TelecomConnectionService"
+            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.telecom.ConnectionService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.discord.socialrpc.DiscordRpcService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.discord.socialsdk.rpc.IDiscordRpcService"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.discord.samsung.SamsungConnectActivity"/>
+        <receiver
+            android:name="com.discord.file_downloader.PublicFileDownloader.PublicFileDownloadBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.discord.chrome_custom_tabs.CustomTabHostActivity"
+            android:exported="false"
+            android:taskAffinity="com.discord.custom_tab_host"
+            android:launchMode="singleTask"
+            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
+            android:autoRemoveFromRecents="true"/>
+        <provider
+            android:name="com.imagepicker.ImagePickerProvider"
+            android:exported="false"
+            android:authorities="com.discord.imagepickerprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/imagepicker_provider_paths"/>
+        </provider>
+        <provider
+            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+            android:exported="false"
+            android:authorities="com.discord.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <service android:name="com.discord.react.headless_tasks.service.HeadlessTasksService"/>
+        <meta-data
+            android:name="io.sentry.auto-init"
+            android:value="false"/>
+        <provider
+            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+            android:exported="false"
+            android:authorities="com.discord.provider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/ivpusic_imagepicker_provider_paths"/>
+        </provider>
+        <activity
+            android:theme="@style/Theme.UCropNoEdgeToEdge"
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.metadata.ModuleDependencies"
+            android:enabled="false"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES"/>
+            </intent-filter>
+            <meta-data
+                android:name="photopicker_activity:0:required"
+                android:value=""/>
+        </service>
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.discord.androidx-startup">
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup"/>
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup"/>
+        </provider>
+        <service
+            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+            android:enabled="true"
+            android:exported="false">
+            <meta-data
+                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl"/>
+        </service>
+        <activity
+            android:theme="@style/Theme.Hidden"
+            android:name="androidx.credentials.playservices.controllers.identityauth.HiddenActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:fitsSystemWindows="true"/>
+        <activity
+            android:theme="@style/Theme.Hidden"
+            android:name="androidx.credentials.playservices.controllers.identitycredentials.IdentityCredentialApiHiddenActivity"
+            android:enabled="true"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden"
+            android:fitsSystemWindows="true"/>
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="9.1.0"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+            android:exported="false"
+            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"/>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+                android:value="true"/>
+        </receiver>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <activity
+            android:theme="@style/Theme.Play.AgeSignals.Transparent"
+            android:name="com.google.android.play.agesignals.AgeSharingConsentWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"/>
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true"/>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.discord.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+            android:enabled="false"
+            android:exported="true">
+            <meta-data
+                android:name="com.google.android.play.core.assetpacks.versionCode"
+                android:value="20300"/>
+        </service>
+        <service
+            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+            android:enabled="false"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"/>
+        <receiver
+            android:name="com.google.android.play.core.assetpacks.SessionStateBroadcastReceiver"
+            android:permission="android.permission.INSTALL_PACKAGES"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.play.core.assetpacks.receiver.ACTION_SESSION_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <provider
+            android:name="io.sentry.android.core.SentryInitProvider"
+            android:exported="false"
+            android:authorities="com.discord.SentryInitProvider"/>
+        <provider
+            android:name="io.sentry.android.core.SentryPerformanceProvider"
+            android:exported="false"
+            android:authorities="com.discord.SentryPerformanceProvider"
+            android:initOrder="200"/>
+        <service
+            android:name="androidx.sharetarget.ChooserTargetServiceCompat"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false">
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct"/>
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false"/>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:directBootAware="true"/>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+            android:exported="false"
+            android:process=":phoenix"/>
+        <meta-data
+            android:name="com.facebook.soloader.enabled"
+            android:value="false"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <meta-data
+            android:name="com.android.vending.splits.required"
+            android:value="true"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="3"/>
+    </application>
+</manifest>

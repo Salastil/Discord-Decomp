@@ -1,0 +1,1 @@
+{"rdfRyh":["我們這裡有一個 ",[8,"$code",["const static codeSpan = 2;"]],"。"],"HMvEC5":["這一切都在本地管理，尚未取代全域 i18n 系統。"],"XOdbAy":["使用像 ",[8,"usernameHook",[[1,"username"]]]," 這樣的鉤子來處理特殊內容。"],"rmps8y":["此字串有一個",[8,"$link",["靜態連結"],["https://discord.com"]],"，其 URL 定義在字串中。"],"uczI4g":["此連結使用運行時提供的",[8,"$link",["變數連結"],[[1,"linkTarget"]]],"。"],"swfLzV":["此訊息來自另一個檔案"]}
